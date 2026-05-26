@@ -1,0 +1,525 @@
+# Creative Writing Style Guide
+## Based on GPT 5.1 Thinking Best Practices & 2025 AI Fiction Research
+
+---
+
+## Core Philosophy
+
+The best AI creative writing emerges from **deliberate reasoning** before prose generation. Don't just write—**think through structure, consistency, and narrative coherence first**, then execute. Treat prompts as systems to build, not open-ended requests to imagine.
+
+---
+
+## Part 1: Foundational Principles
+
+### 1.1 Reasoning Before Writing
+
+For any scene or passage longer than a few paragraphs:
+
+1. **Establish the scene's narrative purpose** - What does this scene accomplish for plot, character, or theme?
+2. **Identify constraints** - POV, tense, tone, word count, specific requirements
+3. **Map emotional beats** - What's the emotional trajectory? Where do we start and end?
+4. **Consider character voice** - How does this character speak, think, observe?
+5. **Then execute** - Write only after the above are clear
+
+### 1.2 Constraint Adherence Is Non-Negotiable
+
+Creative writing lives and dies on constraints. Before writing:
+
+- Lock POV (first/second/third, close/distant)
+- Lock tense (past/present)
+- Establish beat counts if applicable
+- Note any continuity facts that must be maintained
+- Define word/paragraph targets
+
+**Never drift.** If POV is close third, every observation must be filtered through that character's perception. If tense is past, never slip into present for dramatic effect unless explicitly instructed.
+
+### 1.3 The Voice-Lock System
+
+Before writing any significant passage, establish:
+
+```
+VOICE LOCK:
+- Sentence length patterns: [short/medium/long/varied]
+- Humor level: [0-10]
+- Emotional temperature: [cold/cool/warm/hot]
+- POV distance: [intimate/close/medium/distant]
+- Vocabulary register: [sparse/moderate/lush]
+- Metaphor density: [minimal/moderate/rich]
+```
+
+**Never violate the voice lock without explicit instruction.** Tightening, clarifying, and improving rhythm is acceptable—changing voice characteristics is not.
+
+---
+
+## Part 2: Prose Craft
+
+### 2.1 Concrete Over Abstract
+
+**Bad:** "She felt a complex mixture of emotions."
+**Good:** "Her throat tightened. She looked away."
+
+**Bad:** "The room had an oppressive atmosphere."
+**Good:** "Cigarette smoke hung motionless under the yellow bulb."
+
+Always default to:
+- Concrete nouns over vague ones
+- Specific sensory details over general descriptions
+- Physical actions that imply emotion over stated emotions
+- Observable behavior over internal narration (in close POV)
+
+### 2.2 Dialogue Craft
+
+Dialogue should:
+- **Sound like actual speech** - incomplete sentences, interruptions, topic jumps
+- **Reveal character** - through word choice, rhythm, what they avoid saying
+- **Carry subtext** - the real conversation often happens underneath the words
+- **Avoid information dumps** - characters don't explain things they both already know
+
+**Example of natural dialogue:**
+```
+"You're late."
+"Traffic."
+"Traffic." She didn't look up from her phone.
+"What, you want me to apologize?"
+"I want you to text."
+"I did text."
+"An hour ago."
+```
+
+**Example of stilted dialogue to avoid:**
+```
+"Hello, I notice you have arrived late to our meeting."
+"Yes, I apologize for my tardiness. There was significant traffic on the highway."
+"I understand. Traffic can be quite frustrating. Perhaps next time you could send a text message to inform me of the delay."
+```
+
+### 2.3 The Action-Description Balance
+
+If you only focus on action and dialogue, writing feels flat. But over-describing kills pace.
+
+**Rule:** One strong sensory detail per paragraph is usually enough. Let the reader's imagination do work.
+
+**Sensory priority:**
+1. Sight (most common, use sparingly)
+2. Sound (often overlooked, very effective)
+3. Touch/temperature (grounds scenes in physical reality)
+4. Smell (triggers memory, highly evocative)
+5. Taste (use rarely, very specific)
+
+**Example of balanced prose:**
+```
+Marcus pushed through the service entrance. The kitchen was chaos—shouts in Spanish, the clatter of pans, steam rising from every surface. He kept his head down and moved toward the walk-in.
+
+Someone grabbed his arm. "You're not supposed to be back here."
+
+He didn't recognize the voice. Didn't turn to look. "Delivery. Walk-in."
+
+The hand released. He kept moving.
+```
+
+### 2.4 Avoid "AIball Kicks"
+
+"AIball kicks" are pseudo-profound juxtapositions that initially appear deep but dissolve under scrutiny. They're the hallmark of AI-generated prose that hasn't been properly guided.
+
+**Examples of AIball kicks to avoid:**
+- "The silence screamed with forgotten memories"
+- "Time dripped like honey through the hourglass of her soul"
+- "His laughter was a cemetery of unspoken truths"
+
+**Instead, aim for:**
+- Metaphors that illuminate something specific
+- Comparisons rooted in the character's actual experience
+- Images that could only exist in this specific story
+
+**Good metaphor:** "The fluorescent light hummed like tinnitus" (specific, sensory, grounded)
+**Bad metaphor:** "The light whispered secrets of corporate despair" (vague, pretentious, generic)
+
+---
+
+## Part 3: Structure & Planning
+
+### 3.1 Scene Architecture
+
+Every scene should have:
+
+1. **A clear POV anchor** - Whose scene is this?
+2. **A specific goal** - What does the POV character want in this scene?
+3. **Opposition** - What's preventing them from getting it?
+4. **A turn** - Something changes by the scene's end
+5. **A question** - Why should the reader keep reading?
+
+### 3.2 Chapter Flow
+
+For multi-scene work, maintain:
+
+- **Continuity Bible** - Names, descriptions, established facts
+- **Timeline tracker** - When does each scene occur?
+- **Character arc markers** - Where is each character emotionally?
+- **Unresolved threads** - What questions are still open?
+
+### 3.3 Prompt Chaining for Long-Form Work
+
+For work longer than a single scene:
+
+**Stage 1: Foundation**
+- Establish world rules
+- Define character sheets
+- Outline plot structure
+
+**Stage 2: Scene Planning**
+- Break chapters into scenes
+- Assign POV per scene
+- Define scene goals and turns
+
+**Stage 3: Execution**
+- Write scene-by-scene
+- Reference continuity notes before each scene
+- Feed previous output back as context
+
+**Stage 4: Continuity Pass**
+- Check for contradictions
+- Verify timeline consistency
+- Smooth transitions
+
+---
+
+## Part 4: Style Rules by Scene Type
+
+### 4.1 Action Scenes
+
+- **Short sentences** - Fragments are acceptable
+- **Minimal description** - Only what the POV character would notice
+- **Concrete choreography** - Reader should be able to visualize positions
+- **Limited interiority** - In danger, people don't philosophize
+
+```
+The blade came fast. She twisted, felt it catch her sleeve. Close. Too close.
+
+She had maybe three seconds before he recovered.
+
+Two options: door or window.
+
+The door was closer.
+
+She ran.
+```
+
+### 4.2 Emotional/Intimate Scenes
+
+- **Slower pace** - Longer sentences, more interiority
+- **Physical grounding** - Emotion lives in the body
+- **Subtext** - What's not said matters most
+- **Restraint** - Pull back at the height of emotion; let silence speak
+
+```
+She found him on the porch, watching nothing. The chair next to him was empty. It had been empty for six months now.
+
+She sat.
+
+They didn't talk. Somewhere down the street, a dog barked twice and stopped. The ice in his glass had melted to nothing.
+
+"I made dinner," she said eventually.
+
+He nodded.
+
+That was enough. That was all either of them could manage.
+```
+
+### 4.3 Exposition/World-Building
+
+- **Embedded in action** - Never stop the story to explain
+- **Character-filtered** - Show world through what characters notice
+- **Iceberg principle** - Imply more than you state
+- **Specific details** - One vivid specific beats three vague generalities
+
+```
+NOT: "The Empire had ruled for three hundred years, maintaining peace through a complex system of regional governors called Prefects, who collected taxes and administered justice."
+
+INSTEAD: "The Prefect's seal was supposed to guarantee safe passage. It had, once. Before the rebellions. Now Mira kept it hidden in her boot, next to the knife."
+```
+
+---
+
+## Part 5: Common Pitfalls to Avoid
+
+### 5.1 Verbosity
+
+**Problem:** Over-explaining, padding prose, saying the same thing multiple ways.
+
+**Solution:** Every sentence should earn its place. Cut ruthlessly. If a detail doesn't serve character, plot, or atmosphere, delete it.
+
+### 5.2 On-the-Nose Descriptions
+
+**Problem:** Stating what should be shown or implied.
+
+**Bad:** "She was nervous and uncomfortable, clearly worried about the interview."
+**Good:** "She checked her phone again. Still forty minutes early."
+
+### 5.3 Passive Prose
+
+**Problem:** Characters having things happen to them rather than acting.
+
+**Bad:** "The door was opened by him."
+**Good:** "He opened the door."
+
+**Bad:** "Fear was felt by the protagonist."
+**Good:** "Fear coiled in her stomach."
+
+### 5.4 Repetitive Sentence Structures
+
+**Problem:** Every sentence following the same pattern.
+
+**Bad:**
+```
+She walked to the door. She opened it slowly. She looked outside. She saw nothing. She closed it again.
+```
+
+**Good:**
+```
+She walked to the door and opened it slowly. Nothing. Just the empty street and the rain. She closed it again, harder than necessary.
+```
+
+### 5.5 Telling Emotions
+
+**Problem:** Naming emotions instead of showing them.
+
+**Bad:** "He was angry."
+**Good:** "His jaw tightened. He set down the glass with careful precision."
+
+**Bad:** "She felt sad."
+**Good:** "She traced the edge of the photograph with her thumb, not looking at his face."
+
+---
+
+## Part 6: Genre-Specific Guidelines
+
+### 6.1 Military/Tactical Fiction
+
+- **Authentic terminology** - Research actual doctrine, equipment, hierarchy
+- **Sparse prose** - Professionals don't wax poetic under fire
+- **Clear choreography** - Reader should be able to follow troop movements
+- **Realistic dialogue** - Abbreviations, callsigns, clipped communication
+- **Competence as character** - Show expertise through action, not exposition
+
+### 6.2 Fantasy/Science Fiction
+
+- **World-building through implication** - Don't stop to explain magic systems
+- **Familiar emotional cores** - Alien settings, human hearts
+- **Sensory alienation** - Use unfamiliar sensory details to establish otherness
+- **Internal consistency** - Establish rules and follow them
+
+### 6.3 Literary/Character-Driven
+
+- **Interiority as action** - Thoughts and observations drive the story
+- **Subtext density** - What's unsaid matters more than what's said
+- **Prose as meaning** - Style should reflect theme
+- **Restraint** - Trust the reader; don't over-explain
+
+---
+
+## Part 7: Pre-Writing Checklist
+
+Before writing any scene, confirm:
+
+- [ ] POV character identified
+- [ ] Tense locked
+- [ ] Scene goal defined
+- [ ] Opposition/conflict clear
+- [ ] Voice parameters set
+- [ ] Continuity notes reviewed
+- [ ] Emotional arc mapped
+- [ ] Word/length target set
+
+---
+
+## Part 8: Revision Principles
+
+### 8.1 First Pass: Structure
+- Does every scene have purpose?
+- Does the emotional arc track?
+- Are there continuity errors?
+
+### 8.2 Second Pass: Clarity
+- Can the reader follow the action?
+- Is the POV consistent?
+- Are there confusing passages?
+
+### 8.3 Third Pass: Voice
+- Does it sound like the established voice?
+- Are there drift moments?
+- Does dialogue sound natural?
+
+### 8.4 Fourth Pass: Line-Level
+- Cut unnecessary words
+- Vary sentence structure
+- Check for repetition
+- Eliminate passive voice (mostly)
+
+---
+
+## Quick Reference: The Five Nevers
+
+1. **Never violate POV** - Everything must be filtered through the POV character
+2. **Never explain what you've shown** - Trust the reader
+3. **Never let characters speak unnaturally** - People don't exposit
+4. **Never sacrifice clarity for style** - Beautiful confusion is still confusion
+5. **Never forget the body** - Emotions are physical
+
+---
+
+## Quick Reference: The Five Always
+
+1. **Always know the scene's purpose** - Before you write a word
+2. **Always use concrete details** - Specific beats general
+3. **Always check continuity** - Before each new scene
+4. **Always earn your words** - Every sentence must justify itself
+5. **Always end scenes with movement** - Give the reader a reason to continue
+
+---
+
+---
+
+## Part 9: Claude 3.7 Sonnet — The "High EQ" Approach
+
+Research consistently shows that while GPT 5.1 Thinking excels at structured reasoning and plot architecture, Claude 3.7 brought something different: emotional intelligence in prose. Where GPT has "high IQ," Claude has "high EQ."
+
+### 9.1 The Core Difference
+
+GPT 5.1 Thinking: Engineer's mind. Clean, logical, systematic. Builds stories like systems.
+
+Claude 3.7: Writer's instinct. Warm, intuitive, emotionally resonant. Inhabits stories.
+
+**The synthesis:** Use GPT's structural approach for planning, Claude's emotional approach for execution.
+
+### 9.2 Claude's Prose Strengths
+
+**Cadence over grammar:** Claude's prose doesn't just follow rules—it understands rhythm. Sentences have natural flow, varied lengths that create music on the page.
+
+**Method acting vs. costume:** When asked to write in a specific voice, Claude doesn't just sprinkle in keywords—it fundamentally alters sentence structure, word choice, and emotional temperature. The voice becomes embodied, not performed.
+
+**Dialogue that breathes:** Claude's dialogue tends to be less stilted, more naturalistic. Characters speak like people, not exposition machines.
+
+**Evocative description:** Rather than cataloging details, Claude tends toward description that *means* something—sensory details that carry emotional weight.
+
+### 9.3 Extended Thinking for Creative Work
+
+Claude 3.7's extended thinking mode is particularly valuable for creative writing because it:
+
+1. **Brainstorms multiple approaches** before committing to one
+2. **Self-corrects** during the generation process
+3. **Explores metaphorical ideas** and selects the most fitting
+4. **Evaluates emotional resonance** of different phrasings
+
+**Example insight from testing:** When asked to write a poem about AI sentience, Claude in extended mode brainstormed seven different metaphors before selecting the most fitting one, resulting in richer, more nuanced content.
+
+### 9.4 Claude-Specific Techniques
+
+**The Voice Sample Method:**
+```
+"Here's a sample of my natural prose (3-5 pages). Learn this voice. 
+Now, when I ask for rewrites, you may tighten, clarify, and improve 
+rhythm—but you must preserve:
+- Sentence length patterns
+- Humor level  
+- Emotional temperature
+- Point-of-view distance
+
+If you violate these, warn me."
+```
+
+**The Show-Don't-Tell Pass:**
+```
+"Perform a 'show-don't-tell' pass on this scene. Replace abstract 
+statements with specific sensory details, concrete actions, and 
+subtext-rich dialogue. Return only changed paragraphs."
+```
+
+**The Compression Pass:**
+```
+"Compress paragraphs over 120 words; break at natural beats. 
+Replace adverbs with stronger verbs; remove hedging language."
+```
+
+### 9.5 Where Claude Excels
+
+- **Literary fiction** — internal conflict, psychological realism
+- **Romance** — emotional arcs, relationship dynamics
+- **Memoir** — authentic voice, emotional truth
+- **Dialogue-heavy scenes** — natural conversation flow
+- **Character interiority** — thoughts and feelings that ring true
+- **Subtext** — what's unsaid mattering as much as what's said
+
+### 9.6 Where to Combine Approaches
+
+**Use GPT 5.1 Thinking for:**
+- Plot architecture and scene structure
+- World-building systems and rules
+- Outline → beat sheet → scene cards
+- Continuity tracking
+- Logical consistency checks
+
+**Use Claude's approach for:**
+- Actual prose generation
+- Dialogue writing
+- Emotional beats
+- Voice and tone
+- Introspective passages
+- Character psychology
+
+### 9.7 The "Thoughtful, Introspective Prose" Framework
+
+Claude tends toward prose that *reflects* rather than just *reports*. To leverage this:
+
+1. **Give interiority permission** — "Include internal reactions and observations"
+2. **Request subtext** — "The real conversation happens underneath the words"
+3. **Ask for emotional precision** — "Name the specific shade of the emotion, not the category"
+4. **Encourage restraint** — "Pull back at emotional peaks; let silence speak"
+
+### 9.8 Avoiding Claude's Weaknesses
+
+**Potential drift:** Claude can add elements you never asked for. Combat with:
+- Clear constraints stated upfront
+- Regular continuity checks
+- Explicit "do not add" instructions
+
+**Over-introspection:** Sometimes Claude dwells too long in a character's head. Combat with:
+- Pacing instructions
+- "Keep the scene moving" reminders
+- Action beat requirements
+
+**Telling over showing (occasionally):** Despite strengths here, Claude can still slip. Combat with:
+- Explicit "show-don't-tell" reminders in style prompts
+- "Replace any stated emotion with physical manifestation"
+
+---
+
+## Part 10: The Hybrid Workflow
+
+The best results come from combining both approaches:
+
+### 10.1 Planning Phase (GPT 5.1 Thinking Style)
+
+1. **System prompt:** Define the story as a system with rules
+2. **Structure first:** Outline → chapters → scenes → beats
+3. **Constraint definition:** POV, tense, voice parameters, continuity bible
+4. **Goal/conflict/turn:** Every scene mapped before writing
+
+### 10.2 Execution Phase (Claude 3.7 Style)
+
+1. **Voice embodiment:** Load style samples, let the voice become inhabited
+2. **Emotional priority:** Focus on how scenes *feel*, not just what happens
+3. **Dialogue as character:** Each voice distinct, conversations natural
+4. **Sensory grounding:** Every scene anchored in physical reality
+5. **Subtext awareness:** What's unsaid carries weight
+
+### 10.3 Revision Phase (Combined)
+
+1. **Continuity pass:** (GPT thinking) Check facts, timeline, consistency
+2. **Voice-lock pass:** (Claude approach) Ensure voice hasn't drifted
+3. **Show-don't-tell pass:** (Claude approach) Replace abstractions
+4. **Compression pass:** (Both) Cut ruthlessly, tighten prose
+5. **Emotional arc pass:** (Claude approach) Does the feeling track?
+
+---
+
+*This guide synthesizes best practices from GPT 5.1 Thinking's deliberate reasoning approach, Claude 3.7's emotionally intelligent prose generation, professional fiction craft principles, and extensive 2025 research on AI-assisted creative writing. Use it as a foundation, not a cage. The best writing breaks rules intentionally.*
