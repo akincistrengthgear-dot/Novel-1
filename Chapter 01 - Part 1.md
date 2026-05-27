@@ -39,25 +39,27 @@ The hatch opened.
 
 The rain was not rain so much as the memory of rain: a wet smell, a fine wash on the deck plates, the air thick with metal dust. Jaina walked down the ramp first because it was her job to walk down the ramp first. Jag a half-step behind her on the right. Kyp on the left. T'oni and her two aides came last, the senator already arranging her face into the calm she wore when she was working.
 
-The squad leader stepped forward. Sergeant's pauldron, helmet under his arm in the old courtesy. He was older than she had expected. Forty, maybe. A scar along his jaw under three days of stubble. The white armor was not white. It was scrimmed — drab gray and brown panels pressed over the plates, the edges of the original Imperial color visible where the scrim had worn through at the elbows and gauntlets.
+A trooper waited at the foot of the ramp with his helmet tucked under one arm. The other hand sat on the carbine sling. The white at his elbow showed in patches; the rest of the plate had been covered in worn drab panels pressed flat over the Imperial finish, scuffed to bare metal at the edges where the scrim got most of the wear.
 
 "Master Solo Fel."
 
 "Sergeant."
 
-"Master Durron. Senator. Colonel Fel."
+"Master Durron. Senator."
 
-He had her name right. He had everyone's name right.
+A half-beat.
+
+"Colonel Fel."
+
+Jag's face did not move, which was how Jaina knew the *Yvarema* business had not been her imagination.
 
 "This way."
 
-He turned. The other ten formed up: four ahead, four behind, two at the flanks. They moved like men who had practiced moving like this. Jaina noted the spacing — wider than Imperial standard, three meters between troopers instead of two. She noted the weapons. Not E-11s. The carbines were shorter, fatter through the receiver, with a sighting block above the barrel that looked like it housed more than glass. Two of the troopers carried something longer: heavier sniper variants with extended optic. One trooper had a stubby weapon she did not recognize at all — a wide muzzle, a drum magazine. Scattergun, maybe. The doctrine briefing had mentioned scatterguns.
+The other ten formed up — four ahead, four behind, two on the flanks — at a spacing wider than Imperial drill called for. The carbines were wrong too: shorter than an E-11, fatter through the receiver, with a sighting block above the barrel that housed more than glass. Two of the troopers carried sniper variants. One had a stubby weapon with a wide muzzle and a drum magazine. The briefing had mentioned scatterguns.
 
-Every one of them wore a flat rectangular pack between the shoulder blades. The packs hummed. Not loud. A low electric whine you only heard when you were close enough to hear someone breathe.
+Every one of them wore a flat rectangular pack between the shoulder blades. The packs hummed — low, an electric whine you only heard when you were close enough to hear someone breathe. She had heard the same hum a week ago on Coruscant, off the recorder of a captured trooper's gear. Shield generator. Pack and emitter.
 
-She knew the sound. She had heard it in a briefing room on Coruscant a week ago, recorded off a captured trooper's gear. Personal shield generator. Power pack and emitter.
-
-And one of them — at the rear, walking with the casual carriage of a man whose job was different from his squadmates' — carried something that was not a weapon at all. A cylinder about the length of his forearm, strapped across his chest. It had vents. It had a small bank of indicator lights, all of them green.
+One of them at the rear walked easier than the others. No shield pack between his shoulder blades. Instead a vented cylinder strapped across his chest, the length of his forearm, a bank of indicator lights down its flank, all green.
 
 The pressure behind her eyes thickened.
 
@@ -91,33 +93,27 @@ Jaina stepped through the door.
 
 ---
 
-The office was bigger than she had expected and smaller than it should have been.
+The office had been a conference room. Someone had dragged something heavy across the long table once and not bothered to refinish the scar. Three of the chairs had been swapped out for armchairs. The wall behind the desk wasn't a wall; it was a window, and the desk faced the window instead of the door. So did the man behind the desk.
 
-It had been a conference room once. The long table was still there, scarred down the middle where someone had dragged something heavy across it. Three of the chairs had been removed and replaced with armchairs. A holoprojector sat in the center, dark. The wall behind the desk was not a wall but a window looking out over the river and the cranes and the refinery stacks. The view was deliberate. The desk faced it. So did the man behind the desk.
+He didn't stand.
 
-He didn't stand up.
+"Master Solo Fel. Welcome to Hexani V. Sorry about the rain. Please sit."
 
-"Master Solo Fel," he said. "Welcome to Hexani V. Sorry about the rain. Please sit."
+She sat. The others followed.
 
-She sat. The others sat.
+The hookah at his right elbow was already lit. The room smelled of apple tobacco and tea and faintly of gun oil. He had rolled his sleeves past the elbow some time before the meeting, and the forearms below the rolled cloth did not come from sitting at a desk. The shirt was olive drab and unmarked. No rank. No flash. He spoke with the round vowels of an Outer Rim enlisted accent.
 
-Jaina took her measure of the man across the desk in the time it took T'oni to arrange her datapad on her lap.
-
-He wasn't tall. He wasn't short. He was broad in the way men got broad when they spent four mornings a week throwing weight around for the joy of it: thick through the chest, thicker through the forearms, the sleeves of his fatigue shirt rolled to the elbow. The shirt was olive drab and unmarked. No rank. No flash. The shirt had been washed many times. His hair was dark and short and had been cut by someone who didn't care. His face was set in a frown like the frown was a muscle that had locked up and never let go. He had a three-day beard. He had a hookah on a low table at his right elbow, the coal lit, a thin column of pale smoke rising from the bowl. The room smelled of apple tobacco and tea and faintly of gun oil.
-
-He was the most unremarkable man she had ever seen.
-
-Then he looked up and met her eyes, and she revised that.
-
-"Thank you for coming," he said. His voice was low and flat and had the round vowels of an Outer Rim enlisted accent. "I know it's a long way."
+"Thank you for coming. I know it's a long way."
 
 "Lord Maerko."
 
-He stared at her.
+He looked at her.
 
-He stared at her two beats too long, the way a man stares at a piece of equipment that has just made an unfamiliar noise.
+He kept looking. Long enough to be a question. Long enough for the question to land in the room.
 
-She caught the thought before he could shut it down — not the words, just the shape of it, surfacing through the haze of whatever that trooper had carried in the hall. The shape was: *what kind of title is that.*
+She caught the shape of the thought before he closed it off — not the words, the shape — through the haze of whatever that trooper had carried in the hall.
+
+*What kind of title is that.*
 
 "It's what your aides call you," she said.
 
@@ -161,17 +157,15 @@ He didn't wait for an answer. He turned in his chair and called over his shoulde
 
 "Talia."
 
-A side door opened and a woman came in carrying a tray.
+A side door opened.
 
-She was Jaina's age, give or take. Light brown skin, hair cropped close, a calm face. She wore a sleeveless gray tunic and loose trousers and soft shoes. Around her throat was a flat band of dull metal about two fingers wide. The band had a small green light on the side. The band was not a necklace.
-
-Jaina felt it before she saw it — the Force going thin around the woman, then thinning further as she came closer. Not gone. Just throttled. The green light pulsed once and held. Inside the collar's reach, the woman moved through the Force like a swimmer in shallow water.
+The Force went thin around her before she was three steps in — not gone, throttled — and Jaina's eyes went to the source: a flat metal band at her throat, two fingers wide, a small green light pulsing once on the side and steadying. The band sat above the collar of a sleeveless gray tunic. The tunic was the kind of clothing you put on someone you have decided not to dress.
 
 A Jedi.
 
 Jaina did not look at Kyp. She knew what Kyp's face was doing.
 
-The woman — Talia, Maerko had called her — set the tray down on the table without rattling the cups. She poured. She had been pouring tea for a while. Her hand was steady. She set the first cup in front of Jaina, the second in front of Jag, the third in front of Kyp, the fourth in front of T'oni. Then she straightened and stood next to Maerko's chair with her hands clasped behind her, as a junior staffer might.
+The woman — Talia, Maerko had said — set the tray down without rattling the cups. She poured. Her hand was steady. She knew the order: Jaina first, then Jag, then Kyp, then the senator. She did not pour for Maerko because Maerko had not asked. She stepped back behind his chair and put her hands at the small of her back.
 
 She did not look at the visitors.
 
@@ -507,7 +501,7 @@ Maerko shifted in his chair. The chair creaked. He looked at his hookah, picked 
 
 "Eshan."
 
-A technician sitting at a side console looked up. Bald, thirty-ish, in a coverall that had been clearly ironed and then sat in.
+A technician at a side console looked up. Bald. Clean coverall.
 
 "Sir."
 
@@ -649,7 +643,7 @@ A new voice. From the side door. Quiet, urgent.
 
 Maerko shut his mouth.
 
-A young woman in a Section Two field uniform — gray and unmarked — had stepped through the door and was waiting at parade rest. She was holding a flimsi.
+A young woman in Section Two gray waited at the door with a flimsi held flat against her thigh.
 
 "Excuse me," Maerko said. He stood up — he wasn't tall standing — and crossed to her in three steps. She murmured. He bent his head to hers.
 
@@ -879,9 +873,9 @@ The senator did not lift her head. She finished her sentence. She tapped *send.*
 
 The side door opened. The other one. Not Maerko's.
 
-A man came in. Older than the sergeant at the pad. Narrower. Gray at the temples. He wore the same gray unmarked Section uniform Jaina had seen on the aide. He carried a small tray with four glasses of water on it.
+A man came in carrying a tray of water glasses. Section gray, unmarked. Not the aide who had pulled Maerko out.
 
-"With the director's compliments," he said. He set the tray down. He did not look at the cups of tea, which had gone cold.
+"With the director's compliments." He set the tray down. He did not look at the cups of tea, which had gone cold.
 
 "Thank you," T'oni said.
 
