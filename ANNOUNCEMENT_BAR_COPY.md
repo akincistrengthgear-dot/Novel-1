@@ -78,11 +78,20 @@ Per-line notes:
 |---|---|
 | `Warranty backs our powerlifting gear.` | 37 |
 
-Rationale: "warranty" as subject, "backs" as verb, "our powerlifting gear" names the
-product category. Catalogue-wide — sleeves, wraps, straps, belts all fall under
-"powerlifting gear." Per-product warranty terms (lifetime on lever belts and buckles,
-12mo sleeves, 6mo wraps and straps, slippers only where the source confirms) live on the
-product page. No `belt`, `lever`, or `lifters` spent — Slot 1 and Slot 4 keep their nouns.
+Rationale: "warranty" as subject, "backs" as verb, "our powerlifting gear" carries the SEO
+keyword and the product category. Blanket claim, and it's an *honest* one — every product
+in the range carries a warranty (deadlift slippers confirmed covered by the owner), so the
+line never overclaims, including in strict-consumer-law markets (AU ACL, EU/UK statutory
+guarantees). No "most" hedge required.
+
+Trade made on purpose: the keyword wins this slot over the lifetime-belt flex. They can't
+both fit a 40-char complete sentence — "powerlifting gear" alone is 17 chars. The lifetime
+warranty (lever belts and buckles) is therefore homed on the belt product page (where the
+fact spine already places it in Quick Info), not burned into a geo-rotating bar where its
+SEO value is near zero. Per-product terms — lifetime on lever belts and buckles, 12mo
+sleeves, 6mo wraps and straps, slippers per their stated term — live on each product page.
+
+No `belt`, `lever`, or `lifters` spent — Slot 1 and Slot 4 keep their nouns.
 
 ---
 
