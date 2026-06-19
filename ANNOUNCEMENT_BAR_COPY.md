@@ -6,7 +6,7 @@ dashes. No fake urgency. No fulfilment-origin claims.
 
 **Whole-bar noun audit (one key noun per slot, no repeats):**
 - `belt` and `lever` → Slot 4 only.
-- `buckle` → Slot 3 only (the lifetime part I can name without colliding with Slot 4).
+- `gear` → Slot 3 only (warranty covers the whole catalogue, not just belts).
 - `lifters` → Slot 1. Shipping verbs/nouns stay inside Slot 2.
 
 **Cadence decision for Slot 2 (deliberate, not drifted):** two shapes by tier. Free
@@ -76,16 +76,15 @@ Per-line notes:
 
 | Line | Chars |
 |---|---|
-| `Snap a buckle, we swap it for life.` | 35 |
+| `We warranty your gear, some for life.` | 37 |
 
-Rationale: names the failure and the fix, the lifetime tier on show. Uses **buckle** —
-not *belt* or *lever* (reserved for Slot 4) — so the whole-bar noun rule holds. It does
-not claim everything is lifetime (sleeves 1 yr, wraps and straps 6 mo, slippers only if
-stated), because only the lever and buckle carry lifetime.
-
-Trade flagged: the leather belt body is also lifetime, but I can't name it here without
-repeating "belt" from Slot 4. So the line stands on the buckle. Say the word if you'd
-rather break the noun rule and say `belt` here instead of Slot 4.
+Rationale: catalogue-wide, not belt-only. It backs the whole range — sleeves, wraps,
+straps, belts — with lifetime as the ceiling. "Some for life" keeps the lifetime hero
+(lever belts and buckles) without claiming everything lasts forever, and without spending
+*belt* or *lever* (held for Slot 4). It names the warranty outright, so there's no
+"back what?" Per-product terms live on the page: lever belts and buckles lifetime,
+knee/elbow sleeves 12 months, wrist wraps and lifting straps 6 months, slippers only
+where the source states one.
 
 ---
 
@@ -95,20 +94,16 @@ rather break the noun rule and say `belt` here instead of Slot 4.
 |---|---|
 | `Lever belts are USPA & IPL compliant.` | 37 |
 
-Rationale: keyword **compliant** (passes the rulebook — the correct tier, not *approved* /
-*sponsored*, which assert a formal relationship). Scoped to lever belts only, on purpose:
-sleeves are made to spec but not legal; shoes/slippers made to spec; straps/wraps
-unconfirmed. Naming only lever belts keeps the rest from reading as competition-legal.
+Rationale: keyword **compliant** — the belts pass the rulebook (the correct tier, not
+*approved* or *sponsored*, which assert a formal relationship). It is the safe blanket:
+every lever belt is compliant; some are also *approved*, a higher bar, but *compliant* is
+true across all of them, so the line never overclaims. Scoped to lever belts only, on
+purpose — sleeves are made to spec but not legal, slippers made to spec, straps and wraps
+unconfirmed — so the rest never reads as competition-legal.
 
-> **⚠ Flag, not a guess (per the brief).** I've written **USPA & IPL** to match the
-> brief's note ("built to USPA and IPL specs"). But the proof row says "IPL & USPA,"
-> earlier drafts said "USAPL & USPA," and your uploaded fact spine says "USAPL & USPA."
-> **Confirm which bodies the belts actually pass before launch.** If USAPL:
-> `Lever belts are USPA & USAPL compliant.` (39 — still fits).
->
-> On *approved vs compliant*: you said some belts are approved and some compliant. The
-> bar claims only what's true for **all** lever belts — *compliant*. Don't switch to
-> *approved* store-wide unless every belt is formally approved.
+**Org: committed to USPA & IPL** per your spec note. If your bench is USAPL instead, it's
+a one-word swap (`Lever belts are USPA & USAPL compliant.`, 39) — but I'm not leaving it
+open this time.
 
 ---
 
@@ -126,9 +121,9 @@ fast." Punchier alt if you want it: `Code {CODE} knocks {X}% off.` (`Code AKINCI
 
 ## Trades for you to decide
 
-1. **Slot 3 stands on the buckle.** Truth kept, scope narrowed — the noun rule blocks
-   naming the belt here. Alternative: move `belt` to Slot 3 and rework Slot 4 around
-   "levers."
+1. **Slot 3 covers the whole catalogue.** "Your gear" takes in sleeves, wraps and straps,
+   not just belts; "some for life" is the lifetime tier. The one edge is deadlift slippers
+   (warranty unconfirmed) — the product page states each term.
 2. **Paid lines omit cost.** They state tracked delivery; the rate shows at checkout. No
    line claims free.
 3. **USA omits the express pause.** The tariff line is the stronger message; put the
