@@ -6,6 +6,12 @@ one line at 320px, counted ≤40 characters including the period.
 
 No banned words. No em dashes. No fake urgency. No fulfilment-origin claims.
 
+> **Checked against the uploaded fact spine (this pass).** Two corrections were forced
+> by `09-mechanism-warranty-truth-table.md` and `04-copy-rules`: the federations are
+> **USAPL & USPA** (not IPL), and the warranty line cannot say "all gear" because
+> deadlift slippers have no stated warranty. Bar 1 was also de-vibed ("serious" → named
+> category + proof) to match `16-taste-calibration.md`.
+
 ---
 
 ## The 20 questions a stranger lands with (no bars)
@@ -54,12 +60,13 @@ lives on the product page; Q20 (discount) is conditional, not a permanent bar.
 
 | Line | Chars |
 |---|---|
-| `Serious powerlifting gear, rated 4.9/5.` | 39 |
+| `Powerlifting gear, rated 4.9/5 ★.` | 33 |
 
-Rationale: the first word answers "serious or fashion," the next two name the category,
-and the rating closes the trust gap — all before the stranger scrolls. Unambiguous store
-ID + proof. Volume-proof variant if you'd rather lead with numbers:
-`Powerlifting gear. 360+ lifters, 4.9/5.` (39).
+Rationale: names what you sell (the stranger's first question) and backs it with the
+rating — no vibe words. Dropped "Serious": it's a *tell* (red-line test — you can't
+measure it), and it echoes the generic `SERIOUS GEAR. FAIR PRICES.` lead your theme
+cleanup is replacing. If you want more Akinci bite while staying concrete:
+`Gear built for heavy training. 4.9/5.` (37).
 
 ---
 
@@ -116,18 +123,17 @@ Notes:
 
 | Line | Chars |
 |---|---|
-| `All gear is warrantied, up to lifetime.` | 39 |
+| `Warranties run up to a lifetime.` | 32 |
 
-Rationale: this is the "back what?" fix. It names the thing — a **warranty** — so there
-is nothing to decode. **All gear** is covered, so a sleeve, wrap, strap or slipper buyer
-is included, not just belts. **Up to lifetime** keeps the strongest tier (belts and lever
-buckles) on show without claiming everything is lifetime and without spending a belt or
-lever word. Product-neutral, complete, unambiguous. Shorter-margin variant:
-`All gear is warrantied, up to life.` (35).
+Rationale (corrected): names the thing — a **warranty** — so there's nothing to decode,
+and caps it at the true top tier (**lifetime**, on lever belts and buckles). It does
+**not** say "all gear," because your fact spine (`09-mechanism-warranty-truth-table.md`)
+says **deadlift slippers have no warranty unless the source states one** — so "all gear
+is warrantied" overclaims. This states that warranties exist and reach lifetime, without
+asserting every product has one.
 
-The exact terms (lifetime on belts/buckles, 1 yr sleeves, 6 mo wraps/straps) live on the
-product/warranty page — the bar states the floor-to-ceiling truth, the page states the
-line item.
+Per-product terms live on the page: lever belts lifetime, knee/elbow sleeves 12 months,
+wrist wraps and lifting straps 6 months, slippers only if stated.
 
 ---
 
@@ -135,27 +141,34 @@ line item.
 
 | Line | Chars |
 |---|---|
-| `Lever belts are USPA & IPL compliant.` | 37 |
+| `Lever belts are USAPL & USPA compliant.` | 39 |
 
 Rationale: the only belt-specific bar, because federations regulate belts, not slippers.
-It names the bodies (USPA, IPL) so *compliant* isn't vague — the bodies are the proof.
+It names the bodies (USAPL, USPA) so *compliant* isn't vague — the bodies are the proof.
 Correct claim tier: **compliant** means the belts pass the rulebook. It is *not*
 *approved* / *official partner* / *sponsored*, which would assert a formal relationship.
 
 Scope is deliberate, per the gear nuance:
-- Lever belts — **compliant**, built to USPA & IPL specs → the only items named.
+- Lever belts — **compliant**, built to USAPL & USPA specs → the only items named.
 - Knee / elbow sleeves — made to spec but **not** competition-legal → excluded.
 - Shoes / slippers — made to spec, not a compliance claim → excluded.
 - Straps / wraps — status unconfirmed → excluded.
 
-On *approved vs compliant*: the bar claims only what is true for **all** lever belts —
-*compliant*. If every belt is in fact formally approved by both bodies, upgrade to
-`Lever belts are USPA & IPL approved.` (35) — only if literally true for all of them.
+On *approved vs compliant*: your specs sheet says "Approved" but features say
+"compliant" — an internal inconsistency. The bar uses **compliant**, the safer rulebook
+tier (if a belt is approved it is also compliant; compliant never overclaims). Don't
+switch to "approved" store-wide unless every belt is formally approved by both bodies.
 
-> **⚠ One decision before launch — the orgs.** Earlier drafts said "USAPL & USPA"; the
-> proof row said "IPL & USPA"; your latest note says "USPA and IPL." I've written
-> **USPA & IPL**. Confirm the belts actually pass **IPL** (not USAPL). If USAPL:
-> `Lever belts are USPA & USAPL compliant.` (39 — still fits).
+> **⚠ Corrected against the fact spine.** Your verbal note said "USPA & IPL," but the
+> uploaded source of truth — `09-mechanism-warranty-truth-table.md` and `04-copy-rules`
+> ("USAPL and USPA compliant"; specs "Approved: USAPL, USPA") — says **USAPL & USPA**,
+> no IPL. The line is corrected to **USAPL & USPA**. If your note is the newer truth,
+> override; otherwise the fact spine wins.
+>
+> **⚠ Scope check (also the fact spine).** It says state compliance "only where the
+> source says it" and "mark for human review if uncertain." This bar runs store-wide, so
+> confirm **every** lever belt is USAPL/USPA compliant. If any model isn't (a
+> gliding-lever or novelty belt), the bar overclaims on that page and must be narrowed.
 
 ---
 
