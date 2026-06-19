@@ -76,22 +76,24 @@ Per-line notes:
 
 | Line | Chars |
 |---|---|
-| `Warrantied. Some run for life.` | 30 |
+| `Warranty on every order. Some, for life.` | 40 |
 
-Rationale: two beats instead of one long breath. Active verb ("run") instead of static
-"for life." Honest hedge — lever belts + buckles run lifetime; sleeves 12mo, wraps and
-straps 6mo, slippers only where the source confirms. Drops the product noun, which the
-slot context carries (a stranger on a powerlifting store reads "warrantied" as gear, not
-returns or shipping). No `belt`, `lever`, `gear`, or `lifters` spent — Slot 1 and Slot 4
-keep their nouns. Saves 9 chars vs the previous line.
+Rationale: "warranty" stays a noun (the real word), "on every order" is the active phrase
+that names the customer's situation — whatever they're putting in the cart is covered.
+Then a hard stop, then the hero tier: lever belts and buckles run lifetime. "Some, for
+life" is honest hedge against the rest of the catalogue (sleeves 12mo, wraps and straps
+6mo, slippers only where the source confirms). Two beats, full 40-char budget used and
+earned. No `belt`, `lever`, `gear`, or `lifters` spent — Slot 1 and Slot 4 keep their
+nouns.
 
-Alternates if this lands too plain or too oblique:
-- `Sleeves, wraps, straps. All warrantied.` (39) — names the catalogue beyond belts.
-  Sacrifices the lifetime tier.
-- `Our powerlifting gear is warrantied.` (36) — leads with product category.
-  Sacrifices the lifetime tier.
-- `Warrantied. Lifetime on the heavies.` (36) — keeps lifetime, leans on lifter slang.
-  Risk: "the heavies" can read cute or ambiguous.
+Alternates if this reads too formal or too long:
+- `Warranty covers it all. Some, for life.` (39) — same shape, "it all" replaces the
+  customer-situation phrase. Slightly punchier, slightly more abstract.
+- `All our powerlifting gear is covered.` (37) — honors the product-led sketch
+  direction. Sacrifices the lifetime tier — only safe if Slot 4 carries the lever-belt
+  weight alone.
+- `All covered. Lifetime on the heavies.` (37) — two-beat with lifter slang.
+  Most distinctive, but "the heavies" is a bet that the reader hears "lever belts."
 
 ---
 
