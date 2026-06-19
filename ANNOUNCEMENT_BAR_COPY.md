@@ -76,24 +76,13 @@ Per-line notes:
 
 | Line | Chars |
 |---|---|
-| `Warranty on every order. Some, for life.` | 40 |
+| `Warranty covers our powerlifting gear.` | 38 |
 
-Rationale: "warranty" stays a noun (the real word), "on every order" is the active phrase
-that names the customer's situation — whatever they're putting in the cart is covered.
-Then a hard stop, then the hero tier: lever belts and buckles run lifetime. "Some, for
-life" is honest hedge against the rest of the catalogue (sleeves 12mo, wraps and straps
-6mo, slippers only where the source confirms). Two beats, full 40-char budget used and
-earned. No `belt`, `lever`, `gear`, or `lifters` spent — Slot 1 and Slot 4 keep their
-nouns.
-
-Alternates if this reads too formal or too long:
-- `Warranty covers it all. Some, for life.` (39) — same shape, "it all" replaces the
-  customer-situation phrase. Slightly punchier, slightly more abstract.
-- `All our powerlifting gear is covered.` (37) — honors the product-led sketch
-  direction. Sacrifices the lifetime tier — only safe if Slot 4 carries the lever-belt
-  weight alone.
-- `All covered. Lifetime on the heavies.` (37) — two-beat with lifter slang.
-  Most distinctive, but "the heavies" is a bet that the reader hears "lever belts."
+Rationale: your sketch, finished as a sentence. "Warranty" is a noun, "covers" is the
+verb, "our powerlifting gear" names the product category and owns it. Catalogue-wide:
+sleeves, wraps, straps, belts. Per-product warranty terms (lifetime on lever belts and
+buckles, 12mo on sleeves, 6mo on wraps and straps) live on the product page. No `belt`,
+`lever`, or `lifters` spent — Slot 1 and Slot 4 keep their nouns.
 
 ---
 
