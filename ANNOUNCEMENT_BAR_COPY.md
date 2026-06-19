@@ -76,13 +76,19 @@ Per-line notes:
 
 | Line | Chars |
 |---|---|
-| `Warranty covers our powerlifting gear.` | 38 |
+| `Every order is backed by our warranty.` | 38 |
 
-Rationale: your sketch, finished as a sentence. "Warranty" is a noun, "covers" is the
-verb, "our powerlifting gear" names the product category and owns it. Catalogue-wide:
-sleeves, wraps, straps, belts. Per-product warranty terms (lifetime on lever belts and
-buckles, 12mo on sleeves, 6mo on wraps and straps) live on the product page. No `belt`,
-`lever`, or `lifters` spent — Slot 1 and Slot 4 keep their nouns.
+Rationale: catalogue-wide reassurance, which is this slot's real job. The belt buyer
+already trusts the belt — its lifetime warranty lives on the belt's own product page (the
+fact spine puts "Lifetime Warranty" in the belt Quick Info). The person who needs the
+announcement bar is the sleeve / wrap / strap buyer, so the line covers *every order*, not
+just belts. "Backed by our warranty" names the warranty outright, so a cold stranger never
+asks "backed by what?" Customer-first subject ("every order"), not company-first ("we").
+"Powerlifting gear" dropped on purpose: redundant on a powerlifting store and 17 of 40
+chars spent on a word the visitor already knows. No `belt`, `lever`, or `lifters` spent —
+Slot 1 and Slot 4 keep their nouns. Per-product terms (lifetime on lever belts and buckles,
+12mo sleeves, 6mo wraps and straps, slippers only where the source confirms) live on the
+product page.
 
 ---
 
