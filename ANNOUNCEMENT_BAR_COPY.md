@@ -76,13 +76,22 @@ Per-line notes:
 
 | Line | Chars |
 |---|---|
-| `Your gear is warrantied, some for life.` | 39 |
+| `Warrantied. Some run for life.` | 30 |
 
-Rationale: customer-facing. "Your gear" puts the visitor's purchase first, not company
-policy. "Is warrantied" states a fact, not a promise. "Some for life" keeps the lifetime
-tier (lever belts, buckles) without overclaiming the rest. Catalogue-wide: covers sleeves,
-wraps, straps, belts. Per-product terms live on the product page. No *belt* or *lever*
-spent (held for Slot 4). Slippers warrantied only where the source confirms one.
+Rationale: two beats instead of one long breath. Active verb ("run") instead of static
+"for life." Honest hedge — lever belts + buckles run lifetime; sleeves 12mo, wraps and
+straps 6mo, slippers only where the source confirms. Drops the product noun, which the
+slot context carries (a stranger on a powerlifting store reads "warrantied" as gear, not
+returns or shipping). No `belt`, `lever`, `gear`, or `lifters` spent — Slot 1 and Slot 4
+keep their nouns. Saves 9 chars vs the previous line.
+
+Alternates if this lands too plain or too oblique:
+- `Sleeves, wraps, straps. All warrantied.` (39) — names the catalogue beyond belts.
+  Sacrifices the lifetime tier.
+- `Our powerlifting gear is warrantied.` (36) — leads with product category.
+  Sacrifices the lifetime tier.
+- `Warrantied. Lifetime on the heavies.` (36) — keeps lifetime, leans on lifter slang.
+  Risk: "the heavies" can read cute or ambiguous.
 
 ---
 
