@@ -1,124 +1,140 @@
-# Akinci Strength — Announcement Bar Copy (lifter's voice)
+# Akinci Strength — Announcement Bar Copy (5-slot, per brief)
 
-Four bars, written like someone who trains wrote them. Concrete and physical, not a
-logistics form. Mobile-first, one line at 320px, counted ≤40 characters including the
-period. No banned words. No em dashes. No fake urgency. No fulfilment-origin claims.
+Mobile-first, one line at 320px. Every line counted ≤40 characters including the period.
+Complete sentences or clean complete phrases — no fragments. No banned words. No em
+dashes. No fake urgency. No fulfilment-origin claims.
 
-Facts held to the spine (`09-mechanism-warranty-truth-table.md`, `04-copy-rules`):
-USAPL & USPA (no IPL), lifetime on the lever, free US tariff, no invented slipper
-warranty.
+**Whole-bar noun audit (one key noun per slot, no repeats):**
+- `belt` and `lever` → Slot 4 only.
+- `buckle` → Slot 3 only (the lifetime part I can name without colliding with Slot 4).
+- `lifters` → Slot 1. Shipping verbs/nouns stay inside Slot 2.
 
-Known trade for the voice: `lever` appears in Bar 3 and Bar 4. You picked both lines in
-the temperature test, so voice wins over the one-noun rule here. Flag if you want it
-broken.
+**Cadence decision for Slot 2 (deliberate, not drifted):** two shapes by tier. Free
+markets lead with the win ("X ships free…"). Paid markets lead with the action ("We ship
+it tracked to X…") and let the rate land at checkout — no paid line claims free, and none
+crams a price into 40 characters. Each market is written on its own; structures rotate so
+no two neighbours match and no line is a country-swap of another.
 
 ---
 
-## Bar 1 — Trust
+## Slot 1 — Proof (static, all markets)
 
 | Line | Chars |
 |---|---|
-| `3,700+ lifters train on our gear.` | 33 |
+| `Rated 4.9/5 ★ by 360+ lifters` | 29 |
 
-Why: proof by behaviour, not by adjective. Real number, names the gear, says people
-actually use it. No "serious," no rating-label slop. Rating variant if you'd rather lead
-with the score: `Gear that earns 4.9 from 360+ lifters.` (38).
+Rationale: your durable proof form. Concrete, complete, attributed to lifters. Not "5-star
+reviews" — a 4.9 average would make that an overclaim.
 
 ---
 
-## Bar 2 — Shipping (per market)
+## Slot 2 — Shipping (per market)
 
 ### Free markets
 
 | Flag | Market | Line | Chars |
 |---|---|---|---|
-| 🇺🇸 | USA | `We pay the US tariff. Shipping's free.` | 36 |
-| 🇸🇬 | Singapore | `We ship Singapore free, express.` | 32 |
-| 🌏 | ASIA LCL (JP, TH, PH, HK, TW, CN, KR) | `Free express anywhere in Asia.` | 30 |
-| 🇹🇼 | Taiwan | `Taiwan ships free and express.` | 30 |
-| 🌏 | Asia PP (MY, TH, BN, ID, KH) | `Free express across Southeast Asia.` | 35 |
-| 🇨🇦 | Canada | `Canada ships free, tracked all the way.` | 39 |
+| 🇺🇸 | USA | `Shipping's free. We pay the US tariff.` | 38 |
+| 🇸🇬 | Singapore | `Singapore ships free by express.` | 32 |
+| 🌏 | ASIA LCL (JP, TH, PH, HK, TW, CN, KR) | `Free express covers all of Asia.` | 32 |
+| 🇹🇼 | Taiwan | `Taiwan gets free express shipping.` | 34 |
+| 🌏 | Asia PP (MY, TH, BN, ID, KH) | `Free express reaches Southeast Asia.` | 36 |
+| 🇨🇦 | Canada | `Canada ships free, and we track it.` | 35 |
 
 ### Paid markets (rate shown at checkout)
 
 | Flag | Market | Line | Chars |
 |---|---|---|---|
-| 🇬🇧 | UK | `We get it to the UK, tracked.` | 29 |
-| 🇦🇺 | Australia | `Australia, we ship it tracked.` | 30 |
-| 🇳🇿 | New Zealand | `NZ orders go out tracked.` | 25 |
-| 🇩🇰 | Denmark | `We track it all the way to Denmark.` | 35 |
-| 🇧🇬 | Bulgaria | `Bulgaria ships out tracked.` | 27 |
-| 🇲🇽 | Mexico | `Mexico, we ship it tracked.` | 27 |
-| 🇮🇳 | India | `We get it across India, tracked.` | 32 |
-| 🇪🇺 | EU (FI, PL, CH, IE, AT) | `We track it across Europe.` | 26 |
-| 🇪🇺 | Small EU (AD, GR, HU, IS, LT, LU, MD, RO, SK) | `Europe-wide, it ships tracked.` | 30 |
-| 🇪🇺 | Global market (BE, IT, LV, PT, SE) | `Across the EU, we track it.` | 27 |
-| 🗺️ | Balkans (RS, BA, AL) | `The Balkans, we ship it tracked.` | 32 |
+| 🇬🇧 | UK | `We ship it to the UK with tracking.` | 35 |
+| 🇦🇺 | Australia | `We track every order into Australia.` | 36 |
+| 🇳🇿 | New Zealand | `Every NZ order ships fully tracked.` | 35 |
+| 🇩🇰 | Denmark | `We send it tracked to Denmark.` | 30 |
+| 🇧🇬 | Bulgaria | `Every Bulgaria order ships tracked.` | 35 |
+| 🇲🇽 | Mexico | `We ship it tracked into Mexico.` | 31 |
+| 🇮🇳 | India | `India orders ship with full tracking.` | 37 |
+| 🇪🇺 | EU (FI, PL, CH, IE, AT) | `We ship it tracked across Europe.` | 33 |
+| 🇪🇺 | Small EU (AD, GR, HU, IS, LT, LU, MD, RO, SK) | `Every European order ships tracked.` | 35 |
+| 🇪🇺 | Global market (BE, IT, LV, PT, SE) | `We track it all the way across the EU.` | 38 |
+| 🗺️ | Balkans (RS, BA, AL) | `We ship it tracked to the Balkans.` | 34 |
 | 🌎 | South America (AR, CL, EC) | `We track it down to South America.` | 34 |
-| 🌍 | Africa (DZ, MA, TN, ZA, EG) | `We get it across Africa, tracked.` | 33 |
-| 🌐 | Randoms (mixed continents) | `Wherever you are, it ships tracked.` | 35 |
-| 🌐 | International (49-country catch-all) | `We ship it worldwide, tracked.` | 30 |
-| 🇺🇸 | Backup region (USA) | uses the USA line above | 36 |
+| 🌍 | Africa (DZ, MA, TN, ZA, EG) | `Every African order ships tracked.` | 34 |
+| 🌐 | Randoms (mixed continents) | `Wherever you lift, we ship it tracked.` | 38 |
+| 🌐 | International (49-country catch-all) | `We ship it worldwide, fully tracked.` | 36 |
+| 🇺🇸 | Backup region (USA) | uses the USA line above | 38 |
 
-Each market is written on its own — no country-swap templates. Free markets lead with
-the win; paid markets say "we get it to you, tracked" and let the rate land at checkout
-(no line claims free). `EU` says *Europe* (Switzerland isn't in the EU); `Global` says
-*the EU* (all five members); `Small EU` says *Europe-wide* (Andorra, Iceland, Moldova
-aren't EU). USA leads with the tariff because that's the US buyer's real fear.
-
----
-
-## Bar 3 — Warranty
-
-| Line | Chars |
-|---|---|
-| `Snap a lever, we swap it for life.` | 34 |
-
-Why: names the failure and the fix, the way a lifter would. Specific to the lever's
-**lifetime** warranty, so it does not overclaim the gear that isn't lifetime (sleeves 12
-months, wraps and straps 6 months, slippers only if stated). Those terms live on the
-product page.
+Per-line notes:
+- **USA** — two complete sentences; leads free, lands on the tariff (the US buyer's real
+  fear). Express pause not advertised.
+- **EU / Global / Small EU** — `EU` says *Europe* (Switzerland isn't in the EU); `Global`
+  says *the EU* (all five members); `Small EU` says *European* (Andorra, Iceland, Moldova
+  aren't EU).
+- **Randoms** — "Wherever you lift" fits a mixed-continent bucket and nods to the buyer.
 
 ---
 
-## Bar 4 — Federation / compliance
+## Slot 3 — Warranty (static, all markets)
 
 | Line | Chars |
 |---|---|
-| `Lever belts clear USAPL and USPA.` | 33 |
+| `Snap a buckle, we swap it for life.` | 35 |
 
-Why: "clear" is what a lifter says — the belt clears the rulebook. Correct tier (passes
-the rules, not *approved by* / *sponsored*). If you want the literal keyword, swap to
-`Lever belts are USAPL & USPA compliant.` (39).
+Rationale: names the failure and the fix, the lifetime tier on show. Uses **buckle** —
+not *belt* or *lever* (reserved for Slot 4) — so the whole-bar noun rule holds. It does
+not claim everything is lifetime (sleeves 1 yr, wraps and straps 6 mo, slippers only if
+stated), because only the lever and buckle carry lifetime.
 
-> **⚠ Org check.** Your spine says **USAPL & USPA**, no IPL. Your verbal note said IPL —
-> if that's newer, tell me; otherwise the spine stands.
+Trade flagged: the leather belt body is also lifetime, but I can't name it here without
+repeating "belt" from Slot 4. So the line stands on the buckle. Say the word if you'd
+rather break the noun rule and say `belt` here instead of Slot 4.
+
+---
+
+## Slot 4 — Federation / compliance (static, all markets)
+
+| Line | Chars |
+|---|---|
+| `Lever belts are USPA & IPL compliant.` | 37 |
+
+Rationale: keyword **compliant** (passes the rulebook — the correct tier, not *approved* /
+*sponsored*, which assert a formal relationship). Scoped to lever belts only, on purpose:
+sleeves are made to spec but not legal; shoes/slippers made to spec; straps/wraps
+unconfirmed. Naming only lever belts keeps the rest from reading as competition-legal.
+
+> **⚠ Flag, not a guess (per the brief).** I've written **USPA & IPL** to match the
+> brief's note ("built to USPA and IPL specs"). But the proof row says "IPL & USPA,"
+> earlier drafts said "USAPL & USPA," and your uploaded fact spine says "USAPL & USPA."
+> **Confirm which bodies the belts actually pass before launch.** If USAPL:
+> `Lever belts are USPA & USAPL compliant.` (39 — still fits).
 >
-> **⚠ Scope.** The spine says claim compliance "only where the source says it." This bar
-> runs store-wide, so confirm **every** lever belt clears both bodies. If a model
-> doesn't (gliding-lever, novelty), the bar overclaims on that page and must narrow.
+> On *approved vs compliant*: you said some belts are approved and some compliant. The
+> bar claims only what's true for **all** lever belts — *compliant*. Don't switch to
+> *approved* store-wide unless every belt is formally approved.
 
 ---
 
-## Held in reserve — campaign line (only when a code is live)
+## Slot 5 — Campaign discount (shown only when a real code is live)
 
 | Template | Example | Chars |
 |---|---|---|
-| `Code {CODE} takes {X}% off.` | `Code AKINCI15 takes 15% off.` | 28 |
+| `Use code {CODE} for {X}% off.` | `Use code AKINCI15 for 15% off.` | 30 |
 
-A discount isn't a permanent doubt, so it doesn't earn a standing bar.
+Rationale: complete imperative, states the code and the saving, no countdown, no "selling
+fast." Punchier alt if you want it: `Code {CODE} knocks {X}% off.` (`Code AKINCI15 knocks
+15% off.` — 29). Hide the slot when no code is active.
 
 ---
 
-## Flags for you
+## Trades for you to decide
 
-1. **`lever` is in Bars 3 and 4.** Voice trade you approved. Say the word and I'll move
-   Bar 3 to `buckle` (`Snap a buckle, we swap it for life.` — 35).
-2. **Paid lines don't state cost.** They say tracked; the rate shows at checkout. No line
-   claims free.
-3. **AU / NZ surcharges** surface at checkout, not in 40 characters.
-4. **USA express pause** isn't advertised; the tariff line is the stronger message. Put
-   the pause on the shipping page.
+1. **Slot 3 stands on the buckle.** Truth kept, scope narrowed — the noun rule blocks
+   naming the belt here. Alternative: move `belt` to Slot 3 and rework Slot 4 around
+   "levers."
+2. **Paid lines omit cost.** They state tracked delivery; the rate shows at checkout. No
+   line claims free.
+3. **USA omits the express pause.** The tariff line is the stronger message; put the
+   suspension on the shipping page.
+4. **AU / NZ surcharges** surface at checkout — they don't fit a 40-char line, and no line
+   promises a flat rate.
 
 ## Shopify admin fixes (data, not copy)
 
