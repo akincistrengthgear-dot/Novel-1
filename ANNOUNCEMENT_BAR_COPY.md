@@ -5,12 +5,21 @@ sentence**, counted ≤40 characters **including the period**, with deliberate m
 (most land 32–39) because wide letters push the rendered width past the count.
 
 Whole-bar noun audit (the thing that got missed before):
-- `belt` appears **once**, in Slot 4.
-- `lever` appears **once**, in Slot 4.
-- Slot 3 carries the lifetime claim without either word, via `buckle and leather`.
-- No key noun repeats across slots.
+- `belt` appears **once**, in Slot 4. `lever` appears **once**, in Slot 4.
+- Slots 1, 2, 3 and 5 name **no product** — they cover the whole catalogue.
+- Belts show up in only **1 of 5 slots**, so the bar is not a belt advert.
 
 No banned words. No em dashes. No fake urgency. No fulfilment-origin claims.
+
+---
+
+## Product-bias fix (this pass)
+
+The warranty and federation slots used to be belt-only, which left a sleeve / wrap /
+strap / slipper buyer with nothing. Fixed: the **warranty slot is now product-neutral**
+(it backs the whole catalogue), so the only belt-specific line left is the federation
+one — which is belt-weighted by nature, because federations regulate belts, not
+slippers. The lifetime punch is kept via "some for life," without naming a product.
 
 ---
 
@@ -105,32 +114,38 @@ Per-line rationale:
 
 | Line | Chars |
 |---|---|
-| `Your buckle and leather last for life.` | 38 |
+| `We back it all, some for life.` | 30 |
 
-Rationale: the lifetime claim, carried by the two parts of a lever belt — the **buckle**
-and the **leather** — so it is **not** narrowed to the lever alone (your rejection) and
-it never says `belt` (reserved for Slot 4) or `lever` (also Slot 4). Complete sentence.
-Does not imply sleeves or wraps are lifetime, because they aren't.
-
-Two flags on this one — your call:
-- **Assumes the belts are leather.** If any lever belt is a non-leather material, this
-  word is wrong and I'll swap it.
-- **It leads with the lifetime hero and does not spell out the shorter tiers** (sleeves
-  1 yr, wraps and straps 6 mo) — those live on the product/warranty page. If you'd
-  rather the bar signal that *everything* is covered, the alternative is
-  `All gear is covered, the buckle for life.` (40) — but that narrows the lifetime
-  word back to the buckle, which is the thing you rejected. I recommend the leather
-  line.
+Rationale: product-neutral on purpose. **Every** piece we sell is warrantied, so the
+line covers the whole catalogue — not just belts. "Some for life" keeps the lifetime
+hero (belts and lever buckles) without naming a product, without overclaiming the
+shorter tiers (sleeves 1 yr, wraps and straps 6 mo), and without spending a `belt` or
+`lever` word. Complete sentence, dry voice, 30 chars. This is the slot that fixes the
+product bias: a sleeve or strap buyer is now told their gear is backed too.
 
 ---
 
 ## Slot 4 — Federation / compliance (static, all markets)
 
-| Line | Chars |
-|---|---|
-| `Lever belts are USPA & IPL compliant.` | 37 |
+Your call between two tiers of neutrality:
 
-Rationale: leads with the keyword **lever belts**, makes the claim at the correct tier —
+| Option | Line | Chars |
+|---|---|---|
+| **4A (recommended)** | `Lever belts are USPA & IPL compliant.` | 37 |
+| 4B (max neutrality) | `Meet specs are listed on every page.` | 36 |
+
+**4A** keeps your single strongest federation trust signal — the named bodies. It is
+belt-weighted, but that is reality, not bias: federations regulate belts, not slippers,
+so a federation line is *about* belts. With Slot 3 now covering the whole catalogue, one
+belt-specific slot is balanced, not lopsided. I recommend 4A.
+
+**4B** carries zero product weighting — it points every buyer (belt, sleeve, slipper) to
+the exact spec on the product page. Truthful and bias-free, but it throws away the
+USPA & IPL proof, which is the thing a serious lifter most wants to see. Use it only if
+you want the bar fully product-neutral.
+
+Rationale (4A): leads with the keyword **lever belts**, makes the claim at the correct
+tier —
 **compliant** means the belts pass the rulebook, which is allowed. It is *not*
 *approved by* / *official partner* / *sponsored*, which would assert a formal
 relationship. Scoped to lever belts only, on purpose, per the gear nuance:
@@ -174,8 +189,9 @@ clear of 40. Hide the slot entirely when no code is active.
    checkout*. I traded that flat line for a punchy complete sentence; the rate still
    appears at checkout natively, and no line claims free. If you want any specific
    market to signal cost up front, say which and I'll write it.
-2. **Slot 3 leads with lifetime and omits the shorter tiers.** Truth kept, scope of the
-   sentence narrowed to the hero. Alternative offered above.
+2. **Slot 3 says "some for life" without listing every tier.** Truth kept (only some
+   gear is lifetime), and it stays product-neutral so nothing is privileged. The exact
+   terms (1 yr sleeves, 6 mo wraps/straps) live on the product/warranty page.
 3. **USA omits the express pause.** Deliberate — the tariff line is the stronger
    message and you don't advertise a downgrade. The shipping page must carry the notice.
 4. **AU / NZ surcharges** surface at checkout, not in the bar — there's no honest way to
