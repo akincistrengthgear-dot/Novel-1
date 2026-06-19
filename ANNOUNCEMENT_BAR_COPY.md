@@ -92,22 +92,30 @@ product page.
 
 ---
 
-## Slot 4 — Federation / compliance (static, all markets)
+## Slot 4 — Federation / compliance (per market — geo-split)
 
-| Line | Chars |
-|---|---|
-| `Lever belts are USPA & IPL compliant.` | 37 |
+Federations are regional, so this slot is geo-targeted like shipping. A US lifter competes
+under the American bodies; everyone else competes under the international one. Two true
+values, mapped to the same 21 markets as Slot 2.
+
+| Region | Market(s) | Line | Chars |
+|---|---|---|---|
+| 🇺🇸 America | USA (+ USA backup region) | `Lever belts are USAPL & USPA compliant.` | 39 |
+| 🌍 International | every other market: SG · Asia LCL · TW · Asia PP · CA · UK · AU · NZ · DK · BG · MX · IN · EU · Small EU · Global · Balkans · S. America · Africa · Randoms · International | `All our lever belts are IPL compliant.` | 38 |
 
 Rationale: keyword **compliant** — the belts pass the rulebook (the correct tier, not
-*approved* or *sponsored*, which assert a formal relationship). It is the safe blanket:
-every lever belt is compliant; some are also *approved*, a higher bar, but *compliant* is
-true across all of them, so the line never overclaims. Scoped to lever belts only, on
-purpose — sleeves are made to spec but not legal, slippers made to spec, straps and wraps
-unconfirmed — so the rest never reads as competition-legal.
+*approved* or *sponsored*, which assert a formal relationship that isn't true across the
+whole range). **USAPL & USPA** are the American bodies (USPA only exists in the US), so the
+US buyer sees the feds they actually lift under; **IPL** is the international body, so every
+overseas buyer sees the one that governs their platform.
 
-**Org: committed to USPA & IPL** per your spec note. If your bench is USAPL instead, it's
-a one-word swap (`Lever belts are USPA & USAPL compliant.`, 39) — but I'm not leaving it
-open this time.
+Why two values and not 21: the fact spine (`09` line 29) says *state compliance only where
+the source confirms it — never invent*. You've confirmed USAPL, USPA, and IPL. Writing a
+different national federation for each country would be a fabricated legal claim, so the
+slot personalizes on the only real axis — American vs international — and stops there.
+
+Scoped to lever belts only, on purpose — sleeves are made to spec but not legal, slippers
+made to spec, straps and wraps unconfirmed — so the rest never reads as competition-legal.
 
 ---
 
