@@ -1,70 +1,75 @@
-# Akinci Strength — Announcement Bar Copy (rebuild)
+# Akinci Strength — Announcement Bar Copy (4-bar, clarity-first)
 
-Geo-targeted 5-slot bar. Mobile-first, one line at 320px. Every line is a **complete
-sentence**, counted ≤40 characters **including the period**, with deliberate margin
-(most land 32–39) because wide letters push the rendered width past the count.
-
-Whole-bar noun audit (the thing that got missed before):
-- `belt` appears **once**, in Slot 4. `lever` appears **once**, in Slot 4.
-- Slots 1, 2, 3 and 5 name **no product** — they cover the whole catalogue.
-- Belts show up in only **1 of 5 slots**, so the bar is not a belt advert.
+Built for a cold stranger on akincistrength.com who has never heard of the brand.
+Rule for this pass: **no decoding.** Every line is plain on first read. Mobile-first,
+one line at 320px, counted ≤40 characters including the period.
 
 No banned words. No em dashes. No fake urgency. No fulfilment-origin claims.
 
 ---
 
-## Product-bias fix (this pass)
+## The 20 questions a stranger lands with (no bars)
 
-The warranty and federation slots used to be belt-only, which left a sleeve / wrap /
-strap / slipper buyer with nothing. Fixed: the **warranty slot is now product-neutral**
-(it backs the whole catalogue), so the only belt-specific line left is the federation
-one — which is belt-weighted by nature, because federations regulate belts, not
-slippers. The lifetime punch is kept via "some for life," without naming a product.
+**Is this legit? (trust)**
+1. What does this store actually sell?
+2. Is this serious powerlifting gear or gym fashion?
+3. Has anyone actually bought from here?
+4. Can I trust the rating and reviews?
+5. Do real competitive lifters use this?
+
+**Will it reach me? (shipping)**
+6. Do you ship to my country?
+7. Is shipping free, or do I pay?
+8. Will I get hit by customs or tariffs (esp. US)?
+9. Is my order tracked?
+10. How long until it arrives?
+
+**Am I covered? (warranty)**
+11. If it breaks, am I covered?
+12. Does everything have a warranty, or just belts?
+13. How long does the warranty last?
+14. Can I exchange it if the size is wrong?
+
+**Can I compete in it? (federation)**
+15. Is the belt legal at a meet?
+16. Which federations does it pass?
+17. Are the sleeves and wraps meet-legal too, or just the belt?
+18. Will a judge reject the patterns?
+19. Is the belt 10mm or 13mm?
+20. Is there a code or deal right now?
+
+## What they collapse into
+
+Four doubts decide whether the stranger keeps browsing. One bar per doubt. Q19 (specs)
+lives on the product page; Q20 (discount) is conditional, not a permanent bar.
+
+1. Is this legit serious gear? → **Bar 1**
+2. Will it ship to me, and on what terms? → **Bar 2**
+3. Is my gear covered if it breaks? → **Bar 3**
+4. Can I compete in it? → **Bar 4**
 
 ---
 
-## Cadence decision (stated, not drifted into)
-
-Two shapes, split by what the buyer actually needs to hear. This is the deliberate
-decision the last pass refused to make.
-
-- **Free markets — lead with the win.** State plainly that shipping is free (and
-  express, where it is). The benefit is the headline.
-- **Paid markets — lead with the promise.** State that we ship it to their region,
-  tracked. The price is shown natively at checkout; it is **not** crammed into the bar
-  (that produced the "parking sign" line you rejected). Saying nothing about price is
-  honest here — the line never claims free, and the absence of the word *free* is the
-  signal.
-
-Within each tier, **no line is a swap-the-country template.** The underlying fact is
-identical across many markets (free express across Asia; paid tracked across 15
-markets), so personalization means naming each region *and* rotating the sentence
-shape — subject, verb, and tail all move — so no two neighbours read the same. Eight
-sentence shapes are in rotation across the paid markets; adjacent markets never share
-one.
-
----
-
-## Slot 1 — Proof (static, all markets)
+## Bar 1 — Trust (static, all markets)
 
 | Line | Chars |
 |---|---|
-| `Rated 4.9/5 ★ by 360+ lifters` | 29 |
+| `Serious powerlifting gear, rated 4.9/5.` | 39 |
 
-Rationale: your pre-approved durable form, and a complete attributive phrase, not a
-fragment. Holds the true claim — deliberately not "5-star reviews," which a 4.9
-average would overclaim. Active-sentence alternative if you want a verb:
-`360+ lifters rate us 4.9/5 ★.` (29).
+Rationale: the first word answers "serious or fashion," the next two name the category,
+and the rating closes the trust gap — all before the stranger scrolls. Unambiguous store
+ID + proof. Volume-proof variant if you'd rather lead with numbers:
+`Powerlifting gear. 360+ lifters, 4.9/5.` (39).
 
 ---
 
-## Slot 2 — Shipping (per market, complete sentences)
+## Bar 2 — Shipping (per market)
 
 ### Free-shipping markets
 
 | Flag | Market | Line | Chars |
 |---|---|---|---|
-| 🇺🇸 | USA | `Shipping is free. We eat the tariffs.` | 37 |
+| 🇺🇸 | USA | `Shipping is free. We cover US tariffs.` | 38 |
 | 🇸🇬 | Singapore | `We ship free express to Singapore.` | 34 |
 | 🌏 | ASIA LCL (JP, TH, PH, HK, TW, CN, KR) | `Express delivery across Asia is free.` | 37 |
 | 🇹🇼 | Taiwan | `Taiwan gets free express shipping.` | 34 |
@@ -90,120 +95,99 @@ average would overclaim. Active-sentence alternative if you want a verb:
 | 🌍 | Africa (DZ, MA, TN, ZA, EG) | `Your Africa order ships fully tracked.` | 38 |
 | 🌐 | Randoms (mixed continents) | `Wherever you are, we ship it tracked.` | 37 |
 | 🌐 | International (49-country catch-all) | `We ship worldwide, fully tracked.` | 33 |
-| 🇺🇸 | Backup region (USA) | uses the USA line above | 37 |
+| 🇺🇸 | Backup region (USA) | uses the USA line above | 38 |
 
-Per-line rationale:
-- **USA** — leads with free shipping, then the tariff line, your strongest US trust
-  lever, in dry voice. Two short complete sentences. The paused express service is
-  deliberately not advertised (you don't headline a downgrade).
-- **Singapore / Taiwan / Asia (LCL) / SE Asia** — four genuinely identical offers
-  (free express), four different sentences: different subject and verb in each, none a
-  country-swap of another.
-- **Canada** — leads with *free* and adds *tracked*. The undersell is fixed.
-- **EU vs Global vs Small EU** — three European markets, three distinct sentences. The
-  EU market says *Europe* (not "the EU") because it contains Switzerland, a non-member;
-  the Global market says *the EU* because all five of its countries (BE, IT, LV, PT, SE)
-  genuinely are EU members. Small EU says *European* (Andorra, Iceland, Moldova aren't
-  EU, so "Europe" is the truthful word).
-- **Randoms** — "Wherever you are" fits a mixed-continent bucket. **International** —
-  "worldwide" fits a 49-country catch-all. Distinct from each other.
+Cadence: two shapes, by tier. **Free markets** lead with the win (free / express).
+**Paid markets** lead with the promise (we ship it, tracked); the rate shows natively at
+checkout, so no line claims free and none crams a price into 40 characters. Each market
+is individually written — eight sentence shapes rotate so no two neighbours match and no
+line is a country-swap of another.
+
+Notes:
+- **USA** — clarity pick: "We cover US tariffs" states the trust lever plainly (the
+  punchier `We eat the tariffs.` is held as an alt). Paused express is not advertised.
+- **EU vs Global vs Small EU** — EU says *Europe* (contains non-EU Switzerland); Global
+  says *the EU* (BE, IT, LV, PT, SE are all members); Small EU says *European* (Andorra,
+  Iceland, Moldova aren't EU).
 
 ---
 
-## Slot 3 — Warranty (static, all markets)
+## Bar 3 — Warranty (static, all markets)
 
 | Line | Chars |
 |---|---|
-| `We back it all, some for life.` | 30 |
+| `All gear is warrantied, up to lifetime.` | 39 |
 
-Rationale: product-neutral on purpose. **Every** piece we sell is warrantied, so the
-line covers the whole catalogue — not just belts. "Some for life" keeps the lifetime
-hero (belts and lever buckles) without naming a product, without overclaiming the
-shorter tiers (sleeves 1 yr, wraps and straps 6 mo), and without spending a `belt` or
-`lever` word. Complete sentence, dry voice, 30 chars. This is the slot that fixes the
-product bias: a sleeve or strap buyer is now told their gear is backed too.
+Rationale: this is the "back what?" fix. It names the thing — a **warranty** — so there
+is nothing to decode. **All gear** is covered, so a sleeve, wrap, strap or slipper buyer
+is included, not just belts. **Up to lifetime** keeps the strongest tier (belts and lever
+buckles) on show without claiming everything is lifetime and without spending a belt or
+lever word. Product-neutral, complete, unambiguous. Shorter-margin variant:
+`All gear is warrantied, up to life.` (35).
+
+The exact terms (lifetime on belts/buckles, 1 yr sleeves, 6 mo wraps/straps) live on the
+product/warranty page — the bar states the floor-to-ceiling truth, the page states the
+line item.
 
 ---
 
-## Slot 4 — Federation / compliance (static, all markets)
+## Bar 4 — Federation / compliance (static, all markets)
 
-Your call between two tiers of neutrality:
+| Line | Chars |
+|---|---|
+| `Lever belts are USPA & IPL compliant.` | 37 |
 
-| Option | Line | Chars |
-|---|---|---|
-| **4A (recommended)** | `Lever belts are USPA & IPL compliant.` | 37 |
-| 4B (max neutrality) | `Meet specs are listed on every page.` | 36 |
+Rationale: the only belt-specific bar, because federations regulate belts, not slippers.
+It names the bodies (USPA, IPL) so *compliant* isn't vague — the bodies are the proof.
+Correct claim tier: **compliant** means the belts pass the rulebook. It is *not*
+*approved* / *official partner* / *sponsored*, which would assert a formal relationship.
 
-**4A** keeps your single strongest federation trust signal — the named bodies. It is
-belt-weighted, but that is reality, not bias: federations regulate belts, not slippers,
-so a federation line is *about* belts. With Slot 3 now covering the whole catalogue, one
-belt-specific slot is balanced, not lopsided. I recommend 4A.
-
-**4B** carries zero product weighting — it points every buyer (belt, sleeve, slipper) to
-the exact spec on the product page. Truthful and bias-free, but it throws away the
-USPA & IPL proof, which is the thing a serious lifter most wants to see. Use it only if
-you want the bar fully product-neutral.
-
-Rationale (4A): leads with the keyword **lever belts**, makes the claim at the correct
-tier —
-**compliant** means the belts pass the rulebook, which is allowed. It is *not*
-*approved by* / *official partner* / *sponsored*, which would assert a formal
-relationship. Scoped to lever belts only, on purpose, per the gear nuance:
-
-- Lever belts — **compliant**, built to USPA & IPL specs → the only items that earn
-  the compliance claim, and the only items named here.
+Scope is deliberate, per the gear nuance:
+- Lever belts — **compliant**, built to USPA & IPL specs → the only items named.
 - Knee / elbow sleeves — made to spec but **not** competition-legal → excluded.
 - Shoes / slippers — made to spec, not a compliance claim → excluded.
 - Straps / wraps — status unconfirmed → excluded.
 
-On *approved vs compliant*: you noted some belts are approved and some are compliant.
-The bar makes the blanket claim that is true for **all** lever belts — *compliant*. I
-have deliberately **not** written *approved* in the bar, because that is only true for
-specific belts and would overclaim across the range. If every lever belt is in fact
-formally approved by both bodies, you can upgrade the line to
-`Lever belts are USPA & IPL approved.` (35) — only if that is literally true for all of
-them.
+On *approved vs compliant*: the bar claims only what is true for **all** lever belts —
+*compliant*. If every belt is in fact formally approved by both bodies, upgrade to
+`Lever belts are USPA & IPL approved.` (35) — only if literally true for all of them.
 
-> **⚠ One decision needed — the orgs.** Earlier drafts said "USAPL & USPA"; the proof
-> row said "IPL & USPA"; your latest note says "USPA and IPL." I've written **USPA &
-> IPL** to match your latest note. Confirm the belts actually pass **IPL** (not USAPL).
-> If it's USAPL: `Lever belts are USPA & USAPL compliant.` (39 — still fits).
+> **⚠ One decision before launch — the orgs.** Earlier drafts said "USAPL & USPA"; the
+> proof row said "IPL & USPA"; your latest note says "USPA and IPL." I've written
+> **USPA & IPL**. Confirm the belts actually pass **IPL** (not USAPL). If USAPL:
+> `Lever belts are USPA & USAPL compliant.` (39 — still fits).
 
 ---
 
-## Slot 5 — Campaign discount (shown only when a real code is live)
+## Held in reserve — campaign line (not one of the four)
 
-| Template | Example | Chars (example) |
+Shown only when a real code is live, then hidden again:
+
+| Template | Example | Chars |
 |---|---|---|
 | `Use code {CODE} for {X}% off.` | `Use code AKINCI15 for 15% off.` | 30 |
 
-Rationale: an imperative complete sentence — states the code and the discount, nothing
-else. No countdown, no "selling fast." Keep the code short so the filled line stays
-clear of 40. Hide the slot entirely when no code is active.
+Imperative, complete, no fake urgency. A discount is not a permanent doubt, so it does
+not earn a standing bar.
 
 ---
 
-## Trade-offs I'm flagging for you to decide
+## Trade-offs flagged for your call
 
-1. **Paid lines drop the price cue.** They say *we ship it, tracked*, not *cost at
-   checkout*. I traded that flat line for a punchy complete sentence; the rate still
-   appears at checkout natively, and no line claims free. If you want any specific
-   market to signal cost up front, say which and I'll write it.
-2. **Slot 3 says "some for life" without listing every tier.** Truth kept (only some
-   gear is lifetime), and it stays product-neutral so nothing is privileged. The exact
-   terms (1 yr sleeves, 6 mo wraps/straps) live on the product/warranty page.
-3. **USA omits the express pause.** Deliberate — the tariff line is the stronger
-   message and you don't advertise a downgrade. The shipping page must carry the notice.
-4. **AU / NZ surcharges** surface at checkout, not in the bar — there's no honest way to
-   fit "surcharges may apply" in 40 characters, and the line never promises a flat rate.
-
----
+1. **Paid shipping lines drop the price cue.** They say *we ship it, tracked*, not
+   *cost at checkout* (that was the parking-sign line). The rate still appears at
+   checkout; no line claims free. Say which market, if any, should signal cost up front.
+2. **Bar 3 states the range, not each tier.** Truth kept and product-neutral; the per
+   product term is on the page.
+3. **USA omits the express pause.** The tariff line is the stronger message; the
+   shipping page must carry the suspension notice.
+4. **AU / NZ surcharges** surface at checkout — there's no honest way to fit "surcharges
+   may apply" in 40 characters, and no line promises a flat rate.
 
 ## Shopify admin fixes (data, not copy)
 
-These don't change the lines but cause markets to collide or mis-target:
 - **TH** sits in both ASIA LCL and Asia PP.
 - **CN** and **HK** sit in both ASIA LCL and Randoms.
 - **SK** sits in both Small EU and Randoms.
 - **Randoms** traps major European countries (FR, DE, ES, NL, NO) who would get the
-  *across Europe* treatment if moved into the EU market.
+  *across Europe* line if moved into the EU market.
