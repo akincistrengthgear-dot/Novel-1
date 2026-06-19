@@ -21,10 +21,10 @@ no two neighbours match and no line is a country-swap of another.
 
 | Line | Chars |
 |---|---|
-| `Rated 4.9/5 ★ by 360+ lifters` | 29 |
+| `360+ lifters rate us 4.9/5 ★.` | 29 |
 
-Rationale: your durable proof form. Concrete, complete, attributed to lifters. Not "5-star
-reviews" — a 4.9 average would make that an overclaim.
+Rationale: active voice. Lifters are the subject, they do the rating. Reads like a
+statement from the floor, not a review widget. 4.9 keeps the number honest.
 
 ---
 
@@ -76,15 +76,13 @@ Per-line notes:
 
 | Line | Chars |
 |---|---|
-| `We warranty your gear, some for life.` | 37 |
+| `Your gear is warrantied, some for life.` | 39 |
 
-Rationale: catalogue-wide, not belt-only. It backs the whole range — sleeves, wraps,
-straps, belts — with lifetime as the ceiling. "Some for life" keeps the lifetime hero
-(lever belts and buckles) without claiming everything lasts forever, and without spending
-*belt* or *lever* (held for Slot 4). It names the warranty outright, so there's no
-"back what?" Per-product terms live on the page: lever belts and buckles lifetime,
-knee/elbow sleeves 12 months, wrist wraps and lifting straps 6 months, slippers only
-where the source states one.
+Rationale: customer-facing. "Your gear" puts the visitor's purchase first, not company
+policy. "Is warrantied" states a fact, not a promise. "Some for life" keeps the lifetime
+tier (lever belts, buckles) without overclaiming the rest. Catalogue-wide: covers sleeves,
+wraps, straps, belts. Per-product terms live on the product page. No *belt* or *lever*
+spent (held for Slot 4). Slippers warrantied only where the source confirms one.
 
 ---
 
@@ -111,11 +109,10 @@ open this time.
 
 | Template | Example | Chars |
 |---|---|---|
-| `Use code {CODE} for {X}% off.` | `Use code AKINCI15 for 15% off.` | 30 |
+| `Code {CODE} knocks {X}% off.` | `Code AKINCI15 knocks 15% off.` | 29 |
 
-Rationale: complete imperative, states the code and the saving, no countdown, no "selling
-fast." Punchier alt if you want it: `Code {CODE} knocks {X}% off.` (`Code AKINCI15 knocks
-15% off.` — 29). Hide the slot when no code is active.
+Rationale: "knocks" is physical. The verb does work instead of sitting in a template.
+No countdown, no "selling fast." Hide the slot when no code is active.
 
 ---
 
