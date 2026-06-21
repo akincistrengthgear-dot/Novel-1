@@ -4,21 +4,21 @@ Mobile-first, one line at 320px. Every line counted ≤40 characters including t
 Complete sentences or clean complete phrases — no fragments. No banned words. No em
 dashes. No fake urgency. No fulfilment-origin claims.
 
+**Register:** professional and clean (storefront voice), not casual. Declarative shipping
+statements, no conversational "we ship it / wherever you lift" phrasing. Numbers stay
+honest and exact.
+
 **Whole-bar noun audit (one key noun per slot, no repeats):**
 - `belt` and `lever` → Slot 4 only.
 - `gear` → Slot 3 only (warranty covers the whole catalogue, not just belts).
-- `lifters` → Slot 1. Shipping verbs/nouns stay inside Slot 2.
+- `lifters` → Slot 1 only.
 
-**Cadence decision for Slot 2 (deliberate, not drifted):** two registers by tier. Free
-markets lead with the win ("{X} ships free…" / "Free express…"). Paid markets state tracked
-delivery and let the rate land at checkout — no paid line claims free, and none crams a
-price into 40 characters. Each market is written on its own, and the openers are
-deliberately varied ("Bulgaria gets tracked delivery.", "Tracked delivery to the Balkans.",
-"Your UK order ships tracked.", "We ship it tracked across Europe."). **Enforced
-discipline:** no sentence shape repeats more than twice across the paid block, and never in
-two adjacent slots — so the bar never reads as a country-swap list. (The earlier 4-line
-"Every {X} order ships tracked." and "We ship it tracked to {X}." clusters were broken up
-in the tone audit; "Every…" survives once on NZ, "We ship it tracked…" once on the EU.)
+**Cadence discipline for Slot 2:** two registers by tier. Free markets state the free
+benefit ("Free express shipping to {X}." / "{X} ships free, tracked."). Paid markets state
+tracked delivery and let the rate land at checkout — no paid line claims free, and none
+crams a price into 40 characters. Each market is written on its own, and sentence shapes
+are controlled: **no shape repeats more than twice across a tier, and never in two adjacent
+slots** — so the bar reads as a polished list, not a country-swap template.
 
 ---
 
@@ -26,10 +26,10 @@ in the tone audit; "Every…" survives once on NZ, "We ship it tracked…" once 
 
 | Line | Chars |
 |---|---|
-| `360+ lifters rate us 4.9/5 ★.` | 29 |
+| `Rated 4.9/5 by over 360 lifters.` | 32 |
 
-Rationale: active voice. Lifters are the subject, they do the rating. Reads like a
-statement from the floor, not a review widget. 4.9 keeps the number honest.
+Rationale: clean review-badge phrasing for the storefront. 4.9 stays exact (not rounded),
+"over 360" reads as a defensible aggregate. `lifters` keeps the audience noun in Slot 1.
 
 ---
 
@@ -39,41 +39,41 @@ statement from the floor, not a review widget. 4.9 keeps the number honest.
 
 | Flag | Market | Line | Chars |
 |---|---|---|---|
-| 🇺🇸 | USA | `Shipping's free. We pay the US tariff.` | 38 |
-| 🇸🇬 | Singapore | `Singapore ships free by express.` | 32 |
-| 🌏 | ASIA LCL (JP, TH, PH, HK, TW, CN, KR) | `Free express covers all of Asia.` | 32 |
-| 🇹🇼 | Taiwan | `Taiwan gets free express shipping.` | 34 |
-| 🌏 | Asia PP (MY, TH, BN, ID, KH) | `Free express reaches Southeast Asia.` | 36 |
-| 🇨🇦 | Canada | `Canada ships free, and we track it.` | 35 |
+| 🇺🇸 | USA | `Free shipping, US tariff covered.` | 33 |
+| 🇸🇬 | Singapore | `Free express shipping to Singapore.` | 35 |
+| 🌏 | ASIA LCL (JP, TH, PH, HK, TW, CN, KR) | `Free shipping across Asia.` | 26 |
+| 🇹🇼 | Taiwan | `Free express shipping to Taiwan.` | 32 |
+| 🌏 | Asia PP (MY, TH, BN, ID, KH) | `Southeast Asia ships free, tracked.` | 35 |
+| 🇨🇦 | Canada | `Free shipping to Canada, fully tracked.` | 39 |
 
 ### Paid markets (rate shown at checkout)
 
 | Flag | Market | Line | Chars |
 |---|---|---|---|
-| 🇬🇧 | UK | `Your UK order ships tracked.` | 28 |
-| 🇦🇺 | Australia | `We track every order into Australia.` | 36 |
-| 🇳🇿 | New Zealand | `Every NZ order ships fully tracked.` | 35 |
-| 🇩🇰 | Denmark | `We send it tracked to Denmark.` | 30 |
-| 🇧🇬 | Bulgaria | `Bulgaria gets tracked delivery.` | 31 |
-| 🇲🇽 | Mexico | `Tracked delivery into Mexico.` | 29 |
-| 🇮🇳 | India | `India orders ship with full tracking.` | 37 |
-| 🇪🇺 | EU (FI, PL, CH, IE, AT) | `We ship it tracked across Europe.` | 33 |
-| 🇪🇺 | Small EU (AD, GR, HU, IS, LT, LU, MD, RO, SK) | `Your European order arrives tracked.` | 36 |
-| 🇪🇺 | Global market (BE, IT, LV, PT, SE) | `We track it all the way across the EU.` | 38 |
-| 🗺️ | Balkans (RS, BA, AL) | `Tracked delivery to the Balkans.` | 32 |
-| 🌎 | South America (AR, CL, EC) | `We track it down to South America.` | 34 |
-| 🌍 | Africa (DZ, MA, TN, ZA, EG) | `Africa gets fully tracked delivery.` | 35 |
-| 🌐 | Randoms (mixed continents) | `Wherever you lift, we ship it tracked.` | 38 |
-| 🌐 | International (49-country catch-all) | `We ship it worldwide, fully tracked.` | 36 |
-| 🇺🇸 | Backup region (USA) | uses the USA line above | 38 |
+| 🇬🇧 | UK | `Tracked shipping to the UK.` | 27 |
+| 🇦🇺 | Australia | `All Australian orders ship tracked.` | 35 |
+| 🇳🇿 | New Zealand | `New Zealand orders ship fully tracked.` | 38 |
+| 🇩🇰 | Denmark | `Tracked delivery to Denmark.` | 28 |
+| 🇧🇬 | Bulgaria | `Fully tracked shipping to Bulgaria.` | 35 |
+| 🇲🇽 | Mexico | `Tracked delivery to Mexico.` | 27 |
+| 🇮🇳 | India | `Tracked shipping to India.` | 26 |
+| 🇪🇺 | EU (FI, PL, CH, IE, AT) | `Orders ship tracked across Europe.` | 34 |
+| 🇪🇺 | Small EU (AD, GR, HU, IS, LT, LU, MD, RO, SK) | `European orders arrive fully tracked.` | 37 |
+| 🇪🇺 | Global market (BE, IT, LV, PT, SE) | `Fully tracked across the EU.` | 28 |
+| 🗺️ | Balkans (RS, BA, AL) | `All Balkan orders ship tracked.` | 31 |
+| 🌎 | South America (AR, CL, EC) | `Orders ship tracked to South America.` | 37 |
+| 🌍 | Africa (DZ, MA, TN, ZA, EG) | `African orders ship fully tracked.` | 34 |
+| 🌐 | Randoms (mixed continents) | `Shipped and fully tracked.` | 26 |
+| 🌐 | International (49-country catch-all) | `Worldwide shipping, fully tracked.` | 34 |
+| 🇺🇸 | Backup region (USA) | uses the USA line above | 33 |
 
 Per-line notes:
-- **USA** — two complete sentences; leads free, lands on the tariff (the US buyer's real
-  fear). Express pause not advertised.
+- **USA** — leads free, lands on the tariff (the US buyer's real fear). Express pause not
+  advertised here; put it on the shipping page.
 - **EU / Global / Small EU** — `EU` says *Europe* (Switzerland isn't in the EU); `Global`
   says *the EU* (all five members); `Small EU` says *European* (Andorra, Iceland, Moldova
   aren't EU).
-- **Randoms** — "Wherever you lift" fits a mixed-continent bucket and nods to the buyer.
+- **Randoms** — a continent-mixed catch bucket, so the line stays destination-neutral.
 
 ---
 
@@ -81,20 +81,16 @@ Per-line notes:
 
 | Line | Chars |
 |---|---|
-| `Warranty backs our powerlifting gear.` | 37 |
+| `Our powerlifting gear is under warranty.` | 40 |
 
-Rationale: "warranty" as subject, "backs" as verb, "our powerlifting gear" carries the SEO
-keyword and the product category. Blanket claim, and it's an *honest* one — every product
-in the range carries a warranty (deadlift slippers confirmed covered by the owner), so the
-line never overclaims, including in strict-consumer-law markets (AU ACL, EU/UK statutory
-guarantees). No "most" hedge required.
+Rationale: clean declarative that carries the SEO keyword "powerlifting gear" in the one
+slot where `gear` lives. Blanket claim, and an *honest* one — every product in the range,
+including deadlift slippers, is confirmed warranty-covered by the owner, so it never
+overclaims (including in AU ACL and EU/UK statutory-guarantee markets).
 
-Trade made on purpose: the keyword wins this slot over the lifetime-belt flex. They can't
-both fit a 40-char complete sentence — "powerlifting gear" alone is 17 chars. The lifetime
-warranty (lever belts and buckles) is therefore homed on the belt product page (where the
-fact spine already places it in Quick Info), not burned into a geo-rotating bar where its
-SEO value is near zero. Per-product terms — lifetime on lever belts and buckles, 12mo
-sleeves, 6mo wraps and straps, slippers per their stated term — live on each product page.
+Trade made on purpose: the keyword wins this slot over the lifetime-belt flex. The lifetime
+warranty (lever belts and buckles) is homed on the belt product page. Per-product terms —
+lifetime on lever belts and buckles, shorter on the rest — live on each product page.
 
 No `belt`, `lever`, or `lifters` spent — Slot 1 and Slot 4 keep their nouns.
 
@@ -117,10 +113,10 @@ whole range). **USAPL & USPA** are the American bodies (USPA only exists in the 
 US buyer sees the feds they actually lift under; **IPL** is the international body, so every
 overseas buyer sees the one that governs their platform.
 
-Why two values and not 21: the fact spine (`09` line 29) says *state compliance only where
-the source confirms it — never invent*. You've confirmed USAPL, USPA, and IPL. Writing a
-different national federation for each country would be a fabricated legal claim, so the
-slot personalizes on the only real axis — American vs international — and stops there.
+Why two values and not 21: state compliance only where the source confirms it — never
+invent. USAPL, USPA, and IPL are confirmed. Writing a different national federation for each
+country would be a fabricated legal claim, so the slot personalizes on the only real axis —
+American vs international — and stops there.
 
 Scoped to lever belts only, on purpose — sleeves are made to spec but not legal, slippers
 made to spec, straps and wraps unconfirmed — so the rest never reads as competition-legal.
@@ -133,14 +129,14 @@ made to spec, straps and wraps unconfirmed — so the rest never reads as compet
 |---|---|---|
 | `Code {CODE} knocks {X}% off.` | `Code AKINCI15 knocks 15% off.` | 29 |
 
-Rationale: "knocks" is physical. The verb does work instead of sitting in a template.
-No countdown, no "selling fast." Hide the slot when no code is active.
+Rationale: "knocks" is physical and does real work. No countdown, no "selling fast." Hide
+the slot when no code is active.
 
 ---
 
 ## Trades for you to decide
 
-1. **Slot 3 is a catalogue-wide claim.** "Warranty backs our powerlifting gear." covers
+1. **Slot 3 is a catalogue-wide claim.** "Our powerlifting gear is under warranty." covers
    sleeves, wraps, straps, belts, and deadlift slippers — all confirmed warranty-covered by
    the owner, so the blanket claim is honest, including in AU ACL and EU/UK statutory-
    guarantee markets. Per-product terms (lifetime on lever belts and buckles; shorter on
