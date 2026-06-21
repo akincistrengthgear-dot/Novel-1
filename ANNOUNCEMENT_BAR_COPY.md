@@ -1,35 +1,24 @@
-# Akinci Strength — Announcement Bar Copy (5-slot, per brief)
+# Akinci Strength — Announcement Bar Copy
 
-Mobile-first, one line at 320px. Every line counted ≤40 characters total. Slots 1–4 use
-two-beat ` • ` format (left = headline beat, right = qualifier beat, no trailing period).
-Slot 5 is a single-sentence CTA stinger with trailing period. No banned words. No em
-dashes. No fake urgency. No fulfilment-origin claims.
+Rebuilt against the brand source docs: `akinci_strength_writing_guardrails_v_2.md`,
+`AKINCI_COPY_RULES_SUMMARY.md`, the Anti-Abstract Words Manual, and
+`KEYWORD_DECISION_NOTE.md`. Rotating strip; the owner pastes the 5 lines per geo by hand.
 
-**Format decision:** the announcement bar is a rotating strip widget. Two-beat ` • ` lines
-scan in one second, carry two trust signals per slot, and match the storefront convention
-buyers already pattern-match (Shopify default + brand sites). Single-sentence prose lines
-read flat in a strip and waste horizontal real estate. Slot 5 stays single-sentence on
-purpose — the CTA reads as a direct address, distinct from the trust beats.
+**Rules this copy follows (from your docs, not invented):**
+- **Concrete, never abstract.** No filler a competitor could copy ("guaranteed", "premium",
+  "world-class"…). Name the real thing — a number, a federation, a warranty term, a service.
+- **Warranty = the actual term.** Your key-feature line is *"Lifetime warranty on belt and
+  lever."* The bar uses it. Other tiers (6mo wraps, 1yr sleeves) stay on product pages.
+- **Separator = pipe `|`** (your quick-info convention), used only where a line carries two
+  real facts. Single-fact lines stay plain statements.
+- **Keywords = product-type, not broad.** "lever belts" (a primary target) — not
+  "powerlifting gear", which `KEYWORD_DECISION_NOTE` says **not** to chase.
+- **One paid template.** A buyer only ever sees their own market, so paid lines read
+  consistently ("Tracked shipping to {X}.") instead of forced synonyms.
+- Mobile-safe length, but meaning over brevity. No fake urgency. No fulfilment-origin claims.
 
-**Display spec:**
-- Rotation: 5 seconds per slot, fade transition
-- Order: Proof → Shipping → Warranty → Compliance → Discount
-- Hide Slot 5 when no live code → rotation drops to 4
-- Separator: real `•` (U+2022) with one space either side
-- Casing: sentence case across all slots (proper nouns and federation acronyms capitalised)
-
-**Whole-bar noun audit (one key noun per slot, no repeats):**
-- `belts` and `lever` → Slot 4 only
-- `gear` → Slot 3 only (warranty covers the whole catalogue, not just belts)
-- `lifters` → not used; Slot 1 carries volume + rating instead
-
-**Cadence rule (two-beat tier):** the right-half qualifier is a label-style beat by design,
-so some repetition across markets is inherent to the format. Discipline: **no right-half
-signature appears more than 3× within a tier, and never in two adjacent rows.** Six
-qualifier variants are used (`Tracked shipping`, `Tracked delivery`, `Fully tracked`,
-`Ships tracked`, `Fully tracked delivery`, `Shipping fully tracked`); left-halves vary
-between geo-only, region-with-preposition, qualifier-noun, and buyer-address shapes so the
-master list never reads as a country-swap template.
+**Display:** 5s rotation, fade. Order: Proof → Shipping → Warranty → Compliance → Discount.
+Hide Slot 5 when no live code. Real pipe `|` with a space either side.
 
 ---
 
@@ -37,57 +26,56 @@ master list never reads as a country-swap template.
 
 | Line | Chars |
 |---|---|
-| `3,700+ orders shipped • Rated 4.9/5` | 35 |
+| `3,700+ orders shipped \| rated 4.9/5` | 35 |
 
-Rationale: two trust signals in one slot — order volume (social proof at scale) and rating
-(satisfaction). `3,700+` rounds down with a `+` so the number stays true as you grow. `4.9`
-keeps the exact mean (no inflated "5-Star"). **Owner-confirm:** the 3,700+ figure must be
-the true current shipped count before publish.
+Two concrete numbers: volume and rating. `+` keeps the count honest as it grows; `4.9`
+is the true mean (no inflated "5-star"). **Owner-confirm the 3,700+ figure before publish.**
+Provenance variant if you want the review base shown: `3,700+ orders \| 4.9/5 from 360+ lifters` (40).
 
 ---
 
-## Slot 2 — Shipping (per market, two-beat)
+## Slot 2 — Shipping (per market — owner pastes the matching line)
 
 ### Free markets
 
-| Flag | Market | Line | Chars |
-|---|---|---|---|
-| 🇺🇸 | USA | `USA • Free shipping, tariff covered` | 35 |
-| 🇸🇬 | Singapore | `Singapore • Free express shipping` | 33 |
-| 🌏 | ASIA LCL (JP, TH, PH, HK, TW, CN, KR) | `Across Asia • Free shipping` | 27 |
-| 🇹🇼 | Taiwan | `Taiwan • Free express shipping` | 30 |
-| 🌏 | Asia PP (MY, TH, BN, ID, KH) | `Southeast Asia • Free & tracked` | 31 |
-| 🇨🇦 | Canada | `Canada • Free shipping, tracked` | 31 |
+| Market | Line | Chars |
+|---|---|---|
+| 🇺🇸 USA | `Free US shipping \| tariff covered` | 33 |
+| 🇸🇬 Singapore | `Free shipping to Singapore.` | 27 |
+| 🌏 Asia LCL (JP, TH, PH, HK, TW, CN, KR) | `Free shipping across Asia.` | 26 |
+| 🇹🇼 Taiwan | `Free shipping to Taiwan.` | 24 |
+| 🌏 Asia PP (MY, TH, BN, ID, KH) | `Free shipping to Southeast Asia.` | 32 |
+| 🇨🇦 Canada | `Free tracked shipping to Canada.` | 32 |
 
-### Paid markets (rate shown at checkout)
+### Paid markets (rate shows at checkout)
 
-| Flag | Market | Line | Chars |
-|---|---|---|---|
-| 🇬🇧 | UK | `UK • Tracked shipping` | 21 |
-| 🇦🇺 | Australia | `Australia • Tracked delivery` | 28 |
-| 🇳🇿 | New Zealand | `New Zealand • Fully tracked` | 27 |
-| 🇩🇰 | Denmark | `Denmark • Tracked shipping` | 26 |
-| 🇧🇬 | Bulgaria | `Bulgaria • Ships tracked` | 24 |
-| 🇲🇽 | Mexico | `Mexico • Tracked delivery` | 25 |
-| 🇮🇳 | India | `India • Fully tracked delivery` | 30 |
-| 🇪🇺 | EU (FI, PL, CH, IE, AT) | `Across Europe • Tracked shipping` | 32 |
-| 🇪🇺 | Small EU (AD, GR, HU, IS, LT, LU, MD, RO, SK) | `European orders • Fully tracked` | 31 |
-| 🇪🇺 | Global market (BE, IT, LV, PT, SE) | `Across the EU • Shipping fully tracked` | 38 |
-| 🗺️ | Balkans (RS, BA, AL) | `Balkans • Tracked delivery` | 26 |
-| 🌎 | South America (AR, CL, EC) | `South America • Ships tracked` | 29 |
-| 🌍 | Africa (DZ, MA, TN, ZA, EG) | `Africa • Fully tracked` | 22 |
-| 🌐 | Randoms (mixed continents) | `Wherever you lift • Ships tracked` | 33 |
-| 🌐 | International (49-country catch-all) | `Worldwide • Shipping fully tracked` | 34 |
-| 🇺🇸 | Backup region (USA) | uses the USA line above | 36 |
+| Market | Line | Chars |
+|---|---|---|
+| 🇬🇧 UK | `Tracked shipping to the UK.` | 27 |
+| 🇦🇺 Australia | `Tracked shipping across Australia.` | 34 |
+| 🇳🇿 New Zealand | `Tracked shipping to New Zealand.` | 32 |
+| 🇩🇰 Denmark | `Tracked shipping to Denmark.` | 28 |
+| 🇧🇬 Bulgaria | `Tracked shipping to Bulgaria.` | 29 |
+| 🇲🇽 Mexico | `Tracked shipping to Mexico.` | 27 |
+| 🇮🇳 India | `Tracked shipping across India.` | 30 |
+| 🇪🇺 EU (FI, PL, CH, IE, AT) | `Tracked shipping across Europe.` | 31 |
+| 🇪🇺 Small EU (AD, GR, HU, IS, LT, LU, MD, RO, SK) | `Tracked shipping, Europe-wide.` | 30 |
+| 🇪🇺 Global (BE, IT, LV, PT, SE) | `Tracked shipping across the EU.` | 31 |
+| 🗺️ Balkans (RS, BA, AL) | `Tracked shipping to the Balkans.` | 32 |
+| 🌎 South America (AR, CL, EC) | `Tracked shipping to South America.` | 34 |
+| 🌍 Africa (DZ, MA, TN, ZA, EG) | `Tracked shipping across Africa.` | 31 |
+| 🌐 Randoms (mixed continents) | `Tracked shipping, wherever you lift.` | 36 |
+| 🌐 International (49-country catch-all) | `Tracked shipping worldwide.` | 27 |
+| 🇺🇸 Backup region (USA) | uses the USA line above | 33 |
 
-Per-line notes:
-- **USA** — leads with the geo, lands on the tariff (the US buyer's real fear). Express pause
-  not advertised here; put it on the shipping page.
-- **EU / Global / Small EU** — `EU` says *Europe* (Switzerland isn't in the EU); `Global`
-  says *the EU* (all five members); `Small EU` says *European* (Andorra, Iceland, Moldova
+Notes:
+- **USA** — the absorbed tariff is the real US differentiator; the express pause lives on the
+  shipping page, not here.
+- **EU / Global / Small EU** — `EU` says *Europe* (Switzerland isn't in the EU); `Global` says
+  *the EU* (all five are members); `Small EU` says *Europe-wide* (Andorra, Iceland, Moldova
   aren't EU).
-- **Randoms** — continent-mixed bucket; "Wherever you lift" stays destination-neutral and
-  nods to the buyer's identity without burning the `lifters` noun.
+- **`express`** — add it to any free line where that lane is genuinely express; left off here
+  because the service level per lane isn't confirmed in the source docs.
 
 ---
 
@@ -95,91 +83,53 @@ Per-line notes:
 
 | Line | Chars |
 |---|---|
-| `Powerlifting gear • Guaranteed` | 30 |
+| `Lifetime warranty on belt and lever.` | 36 |
 
-Rationale: keyword-first headline beat (`powerlifting gear` carries the SEO weight); single
-word `Guaranteed` lands the promise. Drops the "is under warranty" boilerplate that read
-like legal small print. Blanket claim is honest — every product, including deadlift
-slippers, is confirmed warranty-covered (AU ACL, EU/UK statutory-guarantee markets safe).
-
-Trade made on purpose: keyword wins this slot over the lifetime-belt flex. Per-product terms
-(lifetime on lever belts and buckles; shorter on the rest) live on each product page.
-
-No `belt`, `lever`, or `lifters` spent — Slot 1 and Slot 4 keep their nouns.
+Your exact key-feature phrasing — concrete and true for the hero product. Beats any abstract
+"guaranteed / covered" line (Anti-Abstract Manual: filler a competitor could copy isn't
+yours). Carries the "lever belt" product keyword. Per-product terms (6mo wraps, 1yr sleeves)
+stay on their product pages, where your copy rules already place them.
 
 ---
 
 ## Slot 4 — Federation / compliance (per market — geo-split)
 
-Federations are regional, so this slot is geo-targeted like shipping. A US lifter competes
-under the American bodies; everyone else competes under the international one. Two true
-values, mapped to the same 21 markets as Slot 2.
-
 | Region | Market(s) | Line | Chars |
 |---|---|---|---|
-| 🇺🇸 America | USA (+ USA backup region) | `Lever belts • USAPL & USPA compliant` | 36 |
-| 🌍 International | every other market: SG · Asia LCL · TW · Asia PP · CA · UK · AU · NZ · DK · BG · MX · IN · EU · Small EU · Global · Balkans · S. America · Africa · Randoms · International | `Lever belts • IPL compliant` | 27 |
+| 🇺🇸 America | USA (+ USA backup) | `Lever belts \| USAPL and USPA compliant` | 38 |
+| 🌍 International | every other market | `Lever belts \| IPL compliant` | 27 |
 
-Rationale: keyword **compliant** — the belts pass the rulebook (the correct tier, not
-*approved* or *sponsored*, which assert a formal relationship that isn't true across the
-whole range). **USAPL & USPA** are the American bodies (USPA only exists in the US), so the
-US buyer sees the feds they actually lift under; **IPL** is the international body, so every
-overseas buyer sees the one that governs their platform.
-
-Why two values and not 21: state compliance only where the source confirms it — never
-invent. USAPL, USPA, and IPL are confirmed. Writing a different national federation for each
-country would be a fabricated legal claim, so the slot personalizes on the only real axis —
-American vs international — and stops there.
-
-Scoped to lever belts only, on purpose — sleeves are made to spec but not legal, slippers
-made to spec, straps and wraps unconfirmed — so the rest never reads as competition-legal.
+`compliant` is the honest tier — the belts pass the rulebook (not "approved/sponsored", which
+assert a relationship). USAPL and USPA are the American bodies (USPA is US-only); IPL is the
+international one. **Confirm:** your written specs list *Approved: USAPL, USPA* only — IPL
+rests on your earlier sign-off, so verify the belts meet current IPL spec before it ships to
+20 markets. Scoped to lever belts on purpose; the rest of the range isn't competition-legal.
 
 ---
 
-## Slot 5 — Campaign discount (single-sentence stinger; shown only when a code is live)
+## Slot 5 — Discount (single line; shown only when a code is live)
 
 | Template | Example | Chars |
 |---|---|---|
 | `Code {CODE} knocks {X}% off.` | `Code AKINCI15 knocks 15% off.` | 29 |
 
-Rationale: the CTA stays a single sentence on purpose — it reads as a direct address to the
-buyer, breaking the two-beat rhythm of the trust slots so the eye lands on it as the
-"close." "knocks" is physical and does real work. No countdown, no "selling fast." Hide the
-slot when no code is active so the rotation cleanly drops to 4.
+"knocks" is a physical verb doing real work — concrete, not filler. No countdown, no "selling
+fast." Hide the slot when no code is active.
 
 ---
 
-## Trades for you to decide
+## Owner to confirm / decide
 
-1. **Slot 1 `3,700+` needs owner confirmation.** Must be the true current shipped count.
-   Round down to a defensible figure if the live number is lower; the `+` keeps it honest
-   as you grow.
-2. **Slot 3 is a catalogue-wide claim.** Covers sleeves, wraps, straps, belts, and deadlift
-   slippers — all confirmed warranty-covered by the owner, so the blanket claim is honest,
-   including in AU ACL and EU/UK statutory-guarantee markets. Per-product terms (lifetime on
-   lever belts and buckles; shorter on the rest) live on each product page.
-3. **Paid lines omit cost.** They state tracked delivery; the rate shows at checkout. No
-   line claims free.
-4. **USA omits the express pause.** The tariff line is the stronger message; put the
-   suspension on the shipping page.
-5. **AU / NZ surcharges** surface at checkout — they don't fit a 40-char line, and no line
-   promises a flat rate.
-6. **Slot 4 international says IPL (the body you confirmed).** IPF — not IPL — governs most
-   EU / UK / AU / NZ / Asia platforms. If your lever belts also meet IPF spec, confirm it
-   and the international line can geo-target IPF to those markets; until then it stays IPL
-   so it never fabricates a federation.
+1. **3,700+ shipped** must be the true current count (round down if needed; the `+` keeps it
+   honest as you grow).
+2. **IPL** — confirm belts meet IPL spec (written source confirms only USAPL/USPA).
+3. **USA tariff** — confirm you absorb the US import tariff on all SKUs, durably.
+4. **`express`** — flag any free lane that is genuinely express so it can be named.
 
 ## Shopify admin fixes (data, not copy)
 
-These are zone/profile overlaps the copy can't control — fix the bucket each country
-resolves to in Shopify:
-
-- **CN, HK — blocker.** Both sit in ASIA LCL (**free**) *and* Randoms (**paid**). If the
-  paid Randoms zone wins, a free-promised buyer sees a tracked-not-free line or gets
-  charged. Make the **free Asia LCL** bucket win for CN and HK.
-- **TH** is in both ASIA LCL and Asia PP — both free, so no contradiction; pick one (Asia
-  PP fits "Southeast Asia") to drop the duplicate zone.
-- **SK** (Slovakia — *not* South Korea, which is KR in Asia LCL) is in both Small EU and
-  Randoms — both paid; keep it in **Small EU** for the right regional line.
-- **Randoms** traps FR, DE, ES, NL, NO — all paid, so no free/paid break, but they'd get
-  the proper "across Europe" line if moved to the **EU** market.
+- **CN, HK — blocker.** In ASIA LCL (free) *and* Randoms (paid). Make the free Asia LCL zone
+  win, or a free-promised buyer gets charged.
+- **TH** — in ASIA LCL and Asia PP (both free); pick one (Asia PP fits "Southeast Asia").
+- **SK** (Slovakia, not KR) — in Small EU and Randoms (both paid); keep it in Small EU.
+- **Randoms** traps FR, DE, ES, NL, NO — move to the EU market for the "across Europe" line.
