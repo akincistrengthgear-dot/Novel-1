@@ -9,11 +9,16 @@ dashes. No fake urgency. No fulfilment-origin claims.
 - `gear` → Slot 3 only (warranty covers the whole catalogue, not just belts).
 - `lifters` → Slot 1. Shipping verbs/nouns stay inside Slot 2.
 
-**Cadence decision for Slot 2 (deliberate, not drifted):** two shapes by tier. Free
-markets lead with the win ("X ships free…"). Paid markets lead with the action ("We ship
-it tracked to X…") and let the rate land at checkout — no paid line claims free, and none
-crams a price into 40 characters. Each market is written on its own; structures rotate so
-no two neighbours match and no line is a country-swap of another.
+**Cadence decision for Slot 2 (deliberate, not drifted):** two registers by tier. Free
+markets lead with the win ("{X} ships free…" / "Free express…"). Paid markets state tracked
+delivery and let the rate land at checkout — no paid line claims free, and none crams a
+price into 40 characters. Each market is written on its own, and the openers are
+deliberately varied ("Bulgaria gets tracked delivery.", "Tracked delivery to the Balkans.",
+"Your UK order ships tracked.", "We ship it tracked across Europe."). **Enforced
+discipline:** no sentence shape repeats more than twice across the paid block, and never in
+two adjacent slots — so the bar never reads as a country-swap list. (The earlier 4-line
+"Every {X} order ships tracked." and "We ship it tracked to {X}." clusters were broken up
+in the tone audit; "Every…" survives once on NZ, "We ship it tracked…" once on the EU.)
 
 ---
 
@@ -45,19 +50,19 @@ statement from the floor, not a review widget. 4.9 keeps the number honest.
 
 | Flag | Market | Line | Chars |
 |---|---|---|---|
-| 🇬🇧 | UK | `We ship it to the UK with tracking.` | 35 |
+| 🇬🇧 | UK | `Your UK order ships tracked.` | 28 |
 | 🇦🇺 | Australia | `We track every order into Australia.` | 36 |
 | 🇳🇿 | New Zealand | `Every NZ order ships fully tracked.` | 35 |
 | 🇩🇰 | Denmark | `We send it tracked to Denmark.` | 30 |
-| 🇧🇬 | Bulgaria | `Every Bulgaria order ships tracked.` | 35 |
-| 🇲🇽 | Mexico | `We ship it tracked into Mexico.` | 31 |
+| 🇧🇬 | Bulgaria | `Bulgaria gets tracked delivery.` | 31 |
+| 🇲🇽 | Mexico | `Tracked delivery into Mexico.` | 29 |
 | 🇮🇳 | India | `India orders ship with full tracking.` | 37 |
 | 🇪🇺 | EU (FI, PL, CH, IE, AT) | `We ship it tracked across Europe.` | 33 |
-| 🇪🇺 | Small EU (AD, GR, HU, IS, LT, LU, MD, RO, SK) | `Every European order ships tracked.` | 35 |
+| 🇪🇺 | Small EU (AD, GR, HU, IS, LT, LU, MD, RO, SK) | `Your European order arrives tracked.` | 36 |
 | 🇪🇺 | Global market (BE, IT, LV, PT, SE) | `We track it all the way across the EU.` | 38 |
-| 🗺️ | Balkans (RS, BA, AL) | `We ship it tracked to the Balkans.` | 34 |
+| 🗺️ | Balkans (RS, BA, AL) | `Tracked delivery to the Balkans.` | 32 |
 | 🌎 | South America (AR, CL, EC) | `We track it down to South America.` | 34 |
-| 🌍 | Africa (DZ, MA, TN, ZA, EG) | `Every African order ships tracked.` | 34 |
+| 🌍 | Africa (DZ, MA, TN, ZA, EG) | `Africa gets fully tracked delivery.` | 35 |
 | 🌐 | Randoms (mixed continents) | `Wherever you lift, we ship it tracked.` | 38 |
 | 🌐 | International (49-country catch-all) | `We ship it worldwide, fully tracked.` | 36 |
 | 🇺🇸 | Backup region (USA) | uses the USA line above | 38 |
@@ -135,20 +140,33 @@ No countdown, no "selling fast." Hide the slot when no code is active.
 
 ## Trades for you to decide
 
-1. **Slot 3 covers the whole catalogue.** "Your gear" takes in sleeves, wraps and straps,
-   not just belts; "some for life" is the lifetime tier. The one edge is deadlift slippers
-   (warranty unconfirmed) — the product page states each term.
+1. **Slot 3 is a catalogue-wide claim.** "Warranty backs our powerlifting gear." covers
+   sleeves, wraps, straps, belts, and deadlift slippers — all confirmed warranty-covered by
+   the owner, so the blanket claim is honest, including in AU ACL and EU/UK statutory-
+   guarantee markets. Per-product terms (lifetime on lever belts and buckles; shorter on
+   the rest) live on each product page.
 2. **Paid lines omit cost.** They state tracked delivery; the rate shows at checkout. No
    line claims free.
 3. **USA omits the express pause.** The tariff line is the stronger message; put the
    suspension on the shipping page.
 4. **AU / NZ surcharges** surface at checkout — they don't fit a 40-char line, and no line
    promises a flat rate.
+5. **Slot 4 international says IPL (the body you confirmed).** IPF — not IPL — governs most
+   EU / UK / AU / NZ / Asia platforms. If your lever belts also meet IPF spec, confirm it and
+   the international line can geo-target IPF to those markets; until then it stays IPL so it
+   never fabricates a federation.
 
 ## Shopify admin fixes (data, not copy)
 
-- **TH** is in both ASIA LCL and Asia PP.
-- **CN** and **HK** are in both ASIA LCL and Randoms.
-- **SK** is in both Small EU and Randoms.
-- **Randoms** traps FR, DE, ES, NL, NO, who'd get the Europe line if moved to the EU
-  market.
+These are zone/profile overlaps the copy can't control — fix the bucket each country
+resolves to in Shopify:
+
+- **CN, HK — blocker.** Both sit in ASIA LCL (**free**) *and* Randoms (**paid**). If the
+  paid Randoms zone wins, a free-promised buyer sees a tracked-not-free line or gets charged.
+  Make the **free Asia LCL** bucket win for CN and HK.
+- **TH** is in both ASIA LCL and Asia PP — both free, so no contradiction; pick one (Asia PP
+  fits "Southeast Asia") to drop the duplicate zone.
+- **SK** (Slovakia — *not* South Korea, which is KR in Asia LCL) is in both Small EU and
+  Randoms — both paid; keep it in **Small EU** for the right regional line.
+- **Randoms** traps FR, DE, ES, NL, NO — all paid, so no free/paid break, but they'd get the
+  proper "across Europe" line if moved to the **EU** market.
