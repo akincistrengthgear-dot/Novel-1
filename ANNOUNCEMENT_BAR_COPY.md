@@ -56,7 +56,7 @@ true and current.
 | 🌏 Asia LCL (JP, TH, PH, HK, TW, CN, KR) | `Free shipping across Asia.` | 26 |
 | 🇹🇼 Taiwan | `Free shipping to Taiwan.` | 24 |
 | 🌏 Asia PP (MY, TH, BN, ID, KH) | `Free shipping to Southeast Asia.` | 32 |
-| 🇨🇦 Canada | `Free tracked shipping to Canada.` | 32 |
+| 🇨🇦 Canada | `Free shipping to Canada.` | 24 |
 
 ### Paid markets (rate shows at checkout)
 
@@ -107,7 +107,7 @@ stay on their product pages, where your copy rules already place them.
 
 | Region | Market(s) | Line | Chars |
 |---|---|---|---|
-| 🇺🇸 America | USA (+ USA backup) | `Lever belts \| USAPL and USPA compliant` | 38 |
+| 🇺🇸 America | USA (+ USA backup) | `Lever belts \| USAPL/USPA compliant` | 34 |
 | 🌍 International | every other market | `Lever belts \| IPL compliant` | 27 |
 
 `compliant` is the honest tier — the belts pass the rulebook (not "approved/sponsored", which
