@@ -26,11 +26,22 @@ Hide Slot 5 when no live code. Real pipe `|` with a space either side.
 
 | Line | Chars |
 |---|---|
-| `3,700+ orders shipped \| rated 4.9/5` | 35 |
+| `3,700+ orders • 360+ reviews • 4.9/5` | 36 |
 
-Two concrete numbers: volume and rating. `+` keeps the count honest as it grows; `4.9`
-is the true mean (no inflated "5-star"). **Owner-confirm the 3,700+ figure before publish.**
-Provenance variant if you want the review base shown: `3,700+ orders \| 4.9/5 from 360+ lifters` (40).
+Short-token `•` stat-bar — three honest trust signals in one mobile line: scale (3,700+
+orders), the review count that anchors the rating (360+ reviews), and the true average
+(4.9/5, never an inflated "5-star"). This is the *correct* use of the bullet — short number
+tokens, not long phrases — so it scans instantly and never overflows the way the old
+two-beat bar did. It builds to the rating as the closer, and it stacks legitimacy (scale)
+with third-party proof (reviews + rating) so the slot never has to choose between "we're
+real" and "we're good."
+
+Format: real `•` (U+2022), one space either side. 36 chars sits on the mobile ceiling —
+safe on any phone ≥360px. On legacy 320px screens, fall back to
+`3,700+ orders • 4.9/5 (360+ reviews)` (36) or shorten the rating token to `4.9★`.
+
+**Owner-confirm before publish:** 3,700+ orders, 360+ reviews, and the 4.9 average are all
+true and current.
 
 ---
 
